@@ -1,0 +1,319 @@
+// Interactive Sector Chart
+class SectorChart {
+    constructor() {
+        this.chart = null;
+        this.currentView = 'sectors'; // 'sectors' or 'measures'
+        this.currentSector = null;
+        this.data = null;
+        // IPE Brand Colors
+        this.colors = [
+            '#d63f44', // IPE Red (primary)
+            '#4790b1', // IPE Aqua
+            '#00843b', // IPE Dark Green
+            '#9f9f9f', // IPE Gray
+            '#1f497d', // IPE Dark Blue
+            '#f4ede3', // IPE Beige
+            // Additional variations for more sectors
+            '#b8353a', // Darker red
+            '#3a7a99', // Darker aqua
+            '#006b2f', // Darker green
+            '#7f7f7f', // Darker gray
+            '#183c5a', // Darker blue
+            '#e6d5c1', // Darker beige
+            // Lighter tints (80% opacity)
+            '#e06c76', // Light red
+            '#72a6c3', // Light aqua
+            '#4da069', // Light green
+            '#b8b8b8', // Light gray
+            '#4f6b96', // Light blue
+            '#f7f2ea'  // Light beige
+        ];
+
+        this.init();
+    }
+
+    async init() {
+        await this.loadData();
+        this.setupEventListeners();
+        this.createSectorChart();
+    }
+
+    async loadData() {
+        try {
+            const response = await fetch('./sector_data.json');
+            this.data = await response.json();
+        } catch (error) {
+            console.error('Error loading data:', error);
+            // Fallback: try to load data from a different path
+            alert('Error loading data. Please ensure sector_data.json is in the same directory.');
+        }
+    }
+
+    setupEventListeners() {
+        const backButton = document.getElementById('backButton');
+        backButton.addEventListener('click', () => {
+            this.showSectorView();
+        });
+    }
+
+    createSectorChart() {
+        const ctx = document.getElementById('sectorChart').getContext('2d');
+
+        // Prepare sector data
+        const sectors = Object.keys(this.data.sector_totals);
+        const totals = Object.values(this.data.sector_totals);
+
+        // Sort by total amount (descending)
+        const sortedData = sectors.map((sector, index) => ({
+            sector: sector,
+            total: totals[index]
+        })).sort((a, b) => b.total - a.total);
+
+        const sortedSectors = sortedData.map(d => this.formatSectorName(d.sector));
+        const sortedTotals = sortedData.map(d => d.total);
+        const originalSectors = sortedData.map(d => d.sector);
+        const fullSectorNames = sortedData.map(d => this.formatSectorName(d.sector)); // Store full names for tooltip
+
+        if (this.chart) {
+            this.chart.destroy();
+        }
+
+        this.chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: sortedSectors,
+                datasets: [{
+                    label: 'Totaal bedrag (miljoen €)',
+                    data: sortedTotals,
+                    backgroundColor: this.colors.slice(0, sortedSectors.length),
+                    borderColor: this.colors.slice(0, sortedSectors.length),
+                    borderWidth: 1,
+                    originalSectors: originalSectors, // Store original sector names
+                    fullNames: fullSectorNames // Store full display names for tooltip
+                }]
+            },
+            options: {
+                indexAxis: 'y', // Make bars horizontal
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Totaal bedrag per sector (miljoen €)',
+                        font: {
+                            size: 20,
+                            weight: 'bold',
+                            family: 'DM Sans'
+                        },
+                        color: '#1f497d'
+                    },
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: (context) => {
+                                // Show full label name from stored full names
+                                const datasetIndex = context[0].datasetIndex;
+                                const dataIndex = context[0].dataIndex;
+                                const dataset = context[0].chart.data.datasets[datasetIndex];
+                                return dataset.fullNames ? dataset.fullNames[dataIndex] : context[0].label;
+                            },
+                            label: (context) => {
+                                return `€${context.parsed.x.toFixed(1)} miljoen`;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: {
+                            color: '#f4ede3'
+                        },
+                        ticks: {
+                            color: '#1f497d',
+                            font: {
+                                family: 'DM Sans',
+                                weight: '500'
+                            },
+                            callback: function(value) {
+                                return '€' + value.toFixed(0) + 'M';
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Bedrag (miljoen €)',
+                            color: '#1f497d',
+                            font: {
+                                family: 'DM Sans',
+                                weight: '600'
+                            }
+                        }
+                    },
+                    y: {
+                        grid: {
+                            color: '#f4ede3'
+                        },
+                        ticks: {
+                            color: '#1f497d',
+                            font: {
+                                family: 'DM Sans',
+                                weight: '500'
+                            }
+                        }
+                    }
+                },
+                onClick: (event, elements) => {
+                    if (elements.length > 0) {
+                        const index = elements[0].index;
+                        const originalSector = this.chart.data.datasets[0].originalSectors[index];
+                        this.showMeasureView(originalSector);
+                    }
+                }
+            }
+        });
+
+        this.currentView = 'sectors';
+        document.getElementById('backButton').style.display = 'none';
+        document.getElementById('chart-info').textContent = 'Klik op een sector om de onderliggende beleidsmaatregelen te bekijken';
+    }
+
+    showMeasureView(sector) {
+        const ctx = document.getElementById('sectorChart').getContext('2d');
+        const measures = this.data.sector_details[sector] || [];
+
+        if (measures.length === 0) {
+            alert('Geen maatregelen gevonden voor deze sector.');
+            return;
+        }
+
+        // Sort measures by amount (descending)
+        const sortedMeasures = [...measures].sort((a, b) => b.amount - a.amount);
+
+        const labels = sortedMeasures.map(m => this.formatMeasureName(m.name));
+        const amounts = sortedMeasures.map(m => m.amount);
+        const fullMeasureNames = sortedMeasures.map(m => m.name); // Store full measure names for tooltip
+
+        if (this.chart) {
+            this.chart.destroy();
+        }
+
+        this.chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Bedrag (miljoen €)',
+                    data: amounts,
+                    backgroundColor: '#d63f44',
+                    borderColor: '#d63f44',
+                    borderWidth: 1,
+                    fullNames: fullMeasureNames // Store full measure names for tooltip
+                }]
+            },
+            options: {
+                indexAxis: 'y', // Make bars horizontal
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: `Beleidsmaatregelen: ${this.formatSectorName(sector)}`,
+                        font: {
+                            size: 18,
+                            weight: 'bold'
+                        }
+                    },
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: (context) => {
+                                // Show full label name from stored full names
+                                const datasetIndex = context[0].datasetIndex;
+                                const dataIndex = context[0].dataIndex;
+                                const dataset = context[0].chart.data.datasets[datasetIndex];
+                                return dataset.fullNames ? dataset.fullNames[dataIndex] : context[0].label;
+                            },
+                            label: (context) => {
+                                return `€${context.parsed.x.toFixed(1)} miljoen`;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: {
+                            color: '#f4ede3'
+                        },
+                        ticks: {
+                            color: '#1f497d',
+                            font: {
+                                family: 'DM Sans',
+                                weight: '500'
+                            },
+                            callback: function(value) {
+                                return '€' + value.toFixed(0) + 'M';
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Bedrag (miljoen €)',
+                            color: '#1f497d',
+                            font: {
+                                family: 'DM Sans',
+                                weight: '600'
+                            }
+                        }
+                    },
+                    y: {
+                        grid: {
+                            color: '#f4ede3'
+                        },
+                        ticks: {
+                            color: '#1f497d',
+                            font: {
+                                family: 'DM Sans',
+                                weight: '500'
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        this.currentView = 'measures';
+        this.currentSector = sector;
+        document.getElementById('backButton').style.display = 'inline-block';
+
+        const totalAmount = amounts.reduce((sum, amount) => sum + amount, 0);
+        document.getElementById('chart-info').innerHTML =
+            `<strong>${this.formatSectorName(sector)}</strong><br>` +
+            `Totaal: <span class="euro-format">€${totalAmount.toFixed(1)} miljoen</span> verdeeld over ${measures.length} maatregelen`;
+    }
+
+    showSectorView() {
+        this.createSectorChart();
+    }
+
+    formatSectorName(sector) {
+        // Remove sector letter prefix and clean up
+        return sector.replace(/^[A-Z]\s+/, '').trim();
+    }
+
+    formatMeasureName(measure) {
+        // Truncate long measure names for better display
+        if (measure.length > 40) {
+            return measure.substring(0, 37) + '...';
+        }
+        return measure;
+    }
+}
+
+// Initialize the chart when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    new SectorChart();
+});

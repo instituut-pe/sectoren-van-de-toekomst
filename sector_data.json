@@ -1,0 +1,2244 @@
+{
+  "sector_totals": {
+    "A Landbouw, bosbouw en visserij": 3833.6614579017214,
+    "D Energievoorziening": 445.98900680362414,
+    "E Waterbedrijven en afvalbeheer": 2672.416253968254,
+    "F Bouwnijverheid": 28120.660145421112,
+    "G Handel": 570.0225835994114,
+    "H Vervoer en opslag": 4323.490860320516,
+    "I Horeca": 1392.034,
+    "J Informatie en communicatie": 3572.6356719576715,
+    "K Financiële dienstverlening": 4611.659862433862,
+    "L Verhuur en handel van onroerend goed": 24.016,
+    "M Specialistische zakelijke diensten": 1845.141365079365,
+    "N Verhuur en overige zakelijke diensten": 792.4525828049966,
+    "O Openbaar bestuur en overheidsdiensten": 90610.09,
+    "P Onderwijs": 49005.037402599846,
+    "Q Gezondheids- en welzijnszorg": 39230.00276772538,
+    "R Cultuur, sport en recreatie": 8904.243,
+    "S Overige dienstverlening": 943.231,
+    "U Extraterritoriale organisaties": 542.864
+  },
+  "sector_details": {
+    "A Landbouw, bosbouw en visserij": [
+      {
+        "name": "Innovatiebox ",
+        "amount": 78.12169312169311
+      },
+      {
+        "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
+        "amount": 33.258
+      },
+      {
+        "name": "Beheer natuurgebieden",
+        "amount": 210.15
+      },
+      {
+        "name": "SDE (+)(+)",
+        "amount": 87.72988505747126
+      },
+      {
+        "name": "Aardwarmte",
+        "amount": 37.5
+      },
+      {
+        "name": "Incidentele subsidies",
+        "amount": 1.35
+      },
+      {
+        "name": "Subsidies omploegen graanresten",
+        "amount": 1.701
+      },
+      {
+        "name": "Begroting LNV - Beleidsartikel 1: Land- en tuinbouw",
+        "amount": 909.109
+      },
+      {
+        "name": "Begroting LNV - Beleidsartikel 2: Natuur, visserij en gebiedsgericht werken",
+        "amount": 770.485
+      },
+      {
+        "name": "NGF - project NXTGEN HIGH TECH",
+        "amount": 13.036666666666665
+      },
+      {
+        "name": "Btw Verlaagd tarief Sierteelt",
+        "amount": 321.0
+      },
+      {
+        "name": "Btw Verlaagd tarief overig",
+        "amount": 98.0
+      },
+      {
+        "name": "OVB Vrijstelling cultuurgrond",
+        "amount": 268.0
+      },
+      {
+        "name": "Vrijstelling vergoeding bos- en natuurbeheer",
+        "amount": 15.0
+      },
+      {
+        "name": "Agrarische aangelegenheden",
+        "amount": 139.8
+      },
+      {
+        "name": "EU-begroting - Landbouw en maritiem beleid",
+        "amount": 852.11511199718
+      }
+    ],
+    "D Energievoorziening": [
+      {
+        "name": "Programma Opweg Energie op Rijksvastgoed (OER)",
+        "amount": 16.805
+      },
+      {
+        "name": "Warmtenetten Investeringssubsidie (WIS)",
+        "amount": 110.0
+      },
+      {
+        "name": "Hernieuwbare Energietransitie (HER+)",
+        "amount": 42.0
+      },
+      {
+        "name": "Energie-efficiency",
+        "amount": 2.368
+      },
+      {
+        "name": "Green Deals",
+        "amount": 0.5
+      },
+      {
+        "name": "Demonstratieregeling Energie- en Klimaatinnovatie (DEI+)",
+        "amount": 90.251
+      },
+      {
+        "name": "SDE (+)(+)",
+        "amount": 159.03591954022988
+      },
+      {
+        "name": "Hoge Flux Reactor",
+        "amount": 6.925
+      },
+      {
+        "name": "Caribisch Nederland",
+        "amount": 13.344
+      },
+      {
+        "name": "Overige subsidies",
+        "amount": 62.391
+      },
+      {
+        "name": "Opschalingsinstrument waterstof",
+        "amount": 389.0
+      },
+      {
+        "name": "IPCEI Waterstof",
+        "amount": 396.815
+      },
+      {
+        "name": "Vulmaatregelen gasopslag",
+        "amount": 340.4
+      },
+      {
+        "name": "Geothermie (Klimaatfonds)",
+        "amount": 1.0
+      },
+      {
+        "name": "NGF - project NXTGEN HIGH TECH",
+        "amount": 13.036666666666665
+      }
+    ],
+    "E Waterbedrijven en afvalbeheer": [
+      {
+        "name": "Riolering",
+        "amount": 812.5
+      },
+      {
+        "name": "Innovatiebox ",
+        "amount": 11.718253968253968
+      },
+      {
+        "name": "Kwaliteit oppervlaktewater",
+        "amount": 19.6
+      },
+      {
+        "name": "Kwantiteit oppervlaktewater",
+        "amount": 26.4
+      },
+      {
+        "name": "Bodembescherming",
+        "amount": 53.8
+      },
+      {
+        "name": "NGF-project Circulaire Plastics NL",
+        "amount": 49.963
+      },
+      {
+        "name": "Subsidies Caribisch Nederland",
+        "amount": 9.135
+      },
+      {
+        "name": "Afval",
+        "amount": 2302.0
+      },
+      {
+        "name": "Kwantiteit grondwater",
+        "amount": 28.3
+      }
+    ],
+    "F Bouwnijverheid": [
+      {
+        "name": "Begroting IenW - Beleidsartikel 26: Bijdrage investeringsfondsen",
+        "amount": 11533.484
+      },
+      {
+        "name": "Verkeer en parkeren",
+        "amount": 4482.0
+      },
+      {
+        "name": "Grondexploitatie",
+        "amount": 3133.0
+      },
+      {
+        "name": "Onderwijshuisvesting",
+        "amount": 1478.0
+      },
+      {
+        "name": "Landwegen",
+        "amount": 1060.7
+      },
+      {
+        "name": "Maatwerkvoorziening (WMO)",
+        "amount": 981.0
+      },
+      {
+        "name": "Riolering",
+        "amount": 812.5
+      },
+      {
+        "name": "Versterkingsoperatie",
+        "amount": 776.457
+      },
+      {
+        "name": "ISDE-regeling",
+        "amount": 686.29
+      },
+      {
+        "name": "Fysieke bedrijfsinfrastructuur",
+        "amount": 663.0
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 14: Wegen en Verkeersveiligheid",
+        "amount": 503.006
+      },
+      {
+        "name": "Verduurzaming Maatschappelijk Vastgoed",
+        "amount": 384.8
+      },
+      {
+        "name": "Btw Verlaagd tarief arbeidsintensieve diensten",
+        "amount": 221.8
+      },
+      {
+        "name": "Waterwegen",
+        "amount": 174.4
+      },
+      {
+        "name": "EU-begroting - Regionale ontwikkeling en cohesie",
+        "amount": 114.5947909237587
+      },
+      {
+        "name": "Duurzaam herstel",
+        "amount": 111.0
+      },
+      {
+        "name": "Warmtefonds",
+        "amount": 93.0
+      },
+      {
+        "name": "Duurzame en toegankelijke sportaccommodaties",
+        "amount": 81.607
+      },
+      {
+        "name": "Volkshuisvesting",
+        "amount": 65.2
+      },
+      {
+        "name": "Innovatiebox ",
+        "amount": 62.49735449735449
+      },
+      {
+        "name": "Btw Kleineondernemersregeling",
+        "amount": 51.436
+      },
+      {
+        "name": "Energiebesparing Koopsector",
+        "amount": 47.27
+      },
+      {
+        "name": "Betaalbare koopwoningen starters",
+        "amount": 40.0
+      },
+      {
+        "name": "NGF-project NieuweWarmteNu!",
+        "amount": 37.62
+      },
+      {
+        "name": "Stimuleringsregeling wonen en zorg",
+        "amount": 36.8
+      },
+      {
+        "name": "Bronmaatregelen stikstof",
+        "amount": 36.443
+      },
+      {
+        "name": "Btw Nultarief zonnepanelen ",
+        "amount": 32.0
+      },
+      {
+        "name": "(Slimme) Laadinfrastructuur",
+        "amount": 31.66
+      },
+      {
+        "name": "Subsidie verduurzaming en onderhoud huurwoningen",
+        "amount": 26.77
+      },
+      {
+        "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
+        "amount": 26.028
+      },
+      {
+        "name": "Renovatieversneller",
+        "amount": 24.198
+      },
+      {
+        "name": "Nationaal Groeifonds",
+        "amount": 24.022
+      },
+      {
+        "name": "RVB",
+        "amount": 22.24
+      },
+      {
+        "name": "Waterkeringen",
+        "amount": 21.2
+      },
+      {
+        "name": "SAH",
+        "amount": 20.5
+      },
+      {
+        "name": "Ouderenhuisvesting",
+        "amount": 20.091
+      },
+      {
+        "name": "Bodem en STRONG",
+        "amount": 17.744
+      },
+      {
+        "name": "Verduurzaming Maatschappelijk Vastgoed",
+        "amount": 16.625
+      },
+      {
+        "name": "NGF-project: Dutch Metropolitan Innovations",
+        "amount": 16.392
+      },
+      {
+        "name": "Bedrijvenregeling",
+        "amount": 16.0
+      },
+      {
+        "name": "Verduurzaming bij versterken",
+        "amount": 15.0
+      },
+      {
+        "name": "Waardevermeerderingsregeling",
+        "amount": 13.0
+      },
+      {
+        "name": "Biobased Bouwen",
+        "amount": 10.45
+      },
+      {
+        "name": "GIS-4 regeling",
+        "amount": 10.366
+      },
+      {
+        "name": "Bevordering eigen woningbezit",
+        "amount": 10.0
+      },
+      {
+        "name": "Stimuleringsmiddelen wooncooperaties",
+        "amount": 9.824
+      },
+      {
+        "name": "Herplaatsingsgarantie",
+        "amount": 8.0
+      },
+      {
+        "name": "Nationaal Programma Lokale Warmtetransitie",
+        "amount": 6.0
+      },
+      {
+        "name": "Nieuwbouwregeling",
+        "amount": 4.93
+      },
+      {
+        "name": "Ruimtelijk instrumentarium (diversen)",
+        "amount": 4.911
+      },
+      {
+        "name": "Gebiedsontwikkeling",
+        "amount": 4.688
+      },
+      {
+        "name": "RVB",
+        "amount": 3.85
+      },
+      {
+        "name": "Kennis- en innovatieprogramma emissiearme bouwproducten (stikstof)",
+        "amount": 3.7
+      },
+      {
+        "name": "Programma Ruimtelijk Ontwerp",
+        "amount": 3.213
+      },
+      {
+        "name": "RVB",
+        "amount": 3.136
+      },
+      {
+        "name": "Adviescollege Veiligheid Groningen (ACVG)",
+        "amount": 3.098
+      },
+      {
+        "name": "Bouwregelgeving en bouwkwaliteit",
+        "amount": 3.075
+      },
+      {
+        "name": "Wandel en Fiets",
+        "amount": 1.117
+      },
+      {
+        "name": "Volkshuisvestingsfonds",
+        "amount": 1.059
+      },
+      {
+        "name": "Nationaal Programma Lokale Warmtetransitie",
+        "amount": 0.75
+      },
+      {
+        "name": "Ontgronding",
+        "amount": 0.5
+      },
+      {
+        "name": "Grootschalige woningbouwgebieden",
+        "amount": 0.318
+      },
+      {
+        "name": "Woningbouw",
+        "amount": 0.3
+      },
+      {
+        "name": "Herstructurering winkelgebieden",
+        "amount": 16.0
+      }
+    ],
+    "G Handel": [
+      {
+        "name": "Innovatiebox ",
+        "amount": 335.9232804232804
+      },
+      {
+        "name": "Btw Kleineondernemersregeling",
+        "amount": 69.472
+      },
+      {
+        "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
+        "amount": 133.032
+      },
+      {
+        "name": "Nationaal Isolatie Programma",
+        "amount": 25.98
+      },
+      {
+        "name": "Reservering Klimaatakkoord",
+        "amount": 13.7
+      }
+    ],
+    "H Vervoer en opslag": [
+      {
+        "name": "Innovatiebox ",
+        "amount": 11.718253968253968
+      },
+      {
+        "name": "Btw Kleineondernemersregeling",
+        "amount": 13.026
+      },
+      {
+        "name": "Reservering Klimaatakkoord",
+        "amount": 24.1
+      },
+      {
+        "name": "Reservering Terugsluis Vrachtwagenheffing (VWH)",
+        "amount": 55.0
+      },
+      {
+        "name": "Innovatie en Intelligente Transportsystemen",
+        "amount": 12.522
+      },
+      {
+        "name": "Duurzame logistiek",
+        "amount": 15.197
+      },
+      {
+        "name": "Programma Vergroening Reisgedrag",
+        "amount": 42.532
+      },
+      {
+        "name": "Duurzame mobiliteit",
+        "amount": 7.123
+      },
+      {
+        "name": "Overige opdrachten",
+        "amount": 1.807
+      },
+      {
+        "name": "Subsidie NS Sociale Veiligheid",
+        "amount": 2.0
+      },
+      {
+        "name": "Overige subsidies",
+        "amount": 3.238
+      },
+      {
+        "name": "Beschikbaarheidsvergoeding OV-sector",
+        "amount": 11.356
+      },
+      {
+        "name": "Transitievangnet OV",
+        "amount": 9.085
+      },
+      {
+        "name": "NGF-project: Luchtvaart in transitie",
+        "amount": 0.08
+      },
+      {
+        "name": "NGF-project Luchtvaart in transitie",
+        "amount": 30.405
+      },
+      {
+        "name": "Overige subsidies",
+        "amount": 0.959
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 18: Scheepvaart en havens",
+        "amount": 195.353
+      },
+      {
+        "name": "Bovenregionaal gehandicaptenvervoer",
+        "amount": 63.959
+      },
+      {
+        "name": "Havens en waterwegen",
+        "amount": 187.0
+      },
+      {
+        "name": "Openbaar vervoer",
+        "amount": 191.0
+      },
+      {
+        "name": "Btw Verlaagd tarief Personenvervoer",
+        "amount": 697.0
+      },
+      {
+        "name": "Afdrachtvermindering zeevaart",
+        "amount": 111.0
+      },
+      {
+        "name": "Tonnageregeling winst uit zeescheepvaart",
+        "amount": 120.0
+      },
+      {
+        "name": "Btw Nultarief internationaal personenvervoer",
+        "amount": 1800.0
+      },
+      {
+        "name": "Openbaar vervoer",
+        "amount": 1244.5
+      },
+      {
+        "name": "Verkeer en vervoer, overig",
+        "amount": 181.6
+      },
+      {
+        "name": "Logistiek",
+        "amount": 18.1
+      }
+    ],
+    "I Horeca": [
+      {
+        "name": "Btw Kleineondernemersregeling",
+        "amount": 17.034
+      },
+      {
+        "name": "Btw Verlaagd tarief Logiesverstrekking",
+        "amount": 1375.0
+      }
+    ],
+    "J Informatie en communicatie": [
+      {
+        "name": "Innovatiebox ",
+        "amount": 507.79100529100526
+      },
+      {
+        "name": "Btw Kleineondernemersregeling",
+        "amount": 27.722
+      },
+      {
+        "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
+        "amount": 286.308
+      },
+      {
+        "name": "ICT",
+        "amount": 0.275
+      },
+      {
+        "name": "Logius",
+        "amount": 18.078
+      },
+      {
+        "name": "Doorontwikkeling en innovatie",
+        "amount": 65.837
+      },
+      {
+        "name": "Logius",
+        "amount": 239.081
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 15: Media",
+        "amount": 1213.908
+      },
+      {
+        "name": "IPCEI Cloudinfrastructuur en services",
+        "amount": 20.642
+      },
+      {
+        "name": "ICT opdrachten",
+        "amount": 307.671
+      },
+      {
+        "name": "Risicokapitaal SEED",
+        "amount": 61.253
+      },
+      {
+        "name": "Informatiebeleid",
+        "amount": 55.581
+      },
+      {
+        "name": "Informatiebeleid",
+        "amount": 48.095
+      },
+      {
+        "name": "Informatiesamenleving",
+        "amount": 34.644
+      },
+      {
+        "name": "NGF- project AiNed",
+        "amount": 28.589
+      },
+      {
+        "name": "Eurostars",
+        "amount": 22.269
+      },
+      {
+        "name": "ICT opdrachten",
+        "amount": 17.953
+      },
+      {
+        "name": "Energietransitie en duurzaamheid",
+        "amount": 12.732
+      },
+      {
+        "name": "NGF - project Health-RI",
+        "amount": 12.0
+      },
+      {
+        "name": "Cyber security",
+        "amount": 11.5
+      },
+      {
+        "name": "EU-cofinanciering Digital Europe",
+        "amount": 9.9
+      },
+      {
+        "name": "ICT beleid",
+        "amount": 7.837
+      },
+      {
+        "name": "Subsidiemaatregel telecom Caribisch Nederland",
+        "amount": 7.8
+      },
+      {
+        "name": "Digital trust centre",
+        "amount": 6.739
+      },
+      {
+        "name": "CSIRT - DSP",
+        "amount": 6.031
+      },
+      {
+        "name": "Verkeersveiligheid",
+        "amount": 3.999
+      },
+      {
+        "name": "Beleidsvoorbreiding en evaluaties Veiligheid en frequenties",
+        "amount": 3.646
+      },
+      {
+        "name": "ICT",
+        "amount": 1.489
+      },
+      {
+        "name": "NGF - project NXTGEN HIGH TECH",
+        "amount": 13.036666666666665
+      },
+      {
+        "name": "Cyber security",
+        "amount": 0.202
+      },
+      {
+        "name": "Media",
+        "amount": 520.0
+      },
+      {
+        "name": "ICT opdrachten",
+        "amount": 0.027
+      }
+    ],
+    "K Financiële dienstverlening": [
+      {
+        "name": "Innovatiebox ",
+        "amount": 85.93386243386243
+      },
+      {
+        "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
+        "amount": 274.74
+      },
+      {
+        "name": "Invest NL",
+        "amount": 11.6
+      },
+      {
+        "name": "Muntcirculatie",
+        "amount": 4.705
+      },
+      {
+        "name": "Bijdrage DNB toezicht en DGS BES",
+        "amount": 2.02
+      },
+      {
+        "name": "Uitvoering zorverzekeringsstelsel",
+        "amount": 15.661
+      },
+      {
+        "name": "ASB Vrijstelling levensverzekeringen",
+        "amount": 2793.0
+      },
+      {
+        "name": "ASB Vrijstelling ziekte- en ziektekostenverzekering, zorgverzekering ZVW",
+        "amount": 1021.0
+      },
+      {
+        "name": "ASB Vrijstelling ongevallen,- invaliditeits- en arbeidsongeschiktheidsverzekeringen ",
+        "amount": 763.0
+      },
+      {
+        "name": "ASB Vrijstelling transportverzekeringen",
+        "amount": 69.0
+      },
+      {
+        "name": "ASB vrijstelling zeeschepen",
+        "amount": 21.0
+      },
+      {
+        "name": "ASB vrijstelling exportkredietverzekeringen",
+        "amount": 16.0
+      },
+      {
+        "name": "ASB vrijstelling brede weersverzekering",
+        "amount": 7.0
+      }
+    ],
+    "L Verhuur en handel van onroerend goed": [
+      {
+        "name": "Btw Kleineondernemersregeling",
+        "amount": 8.016
+      },
+      {
+        "name": "Kamerverhuurvrijstelling",
+        "amount": 16.0
+      }
+    ],
+    "M Specialistische zakelijke diensten": [
+      {
+        "name": "Innovatiebox ",
+        "amount": 339.82936507936506
+      },
+      {
+        "name": "Btw Kleineondernemersregeling",
+        "amount": 102.204
+      },
+      {
+        "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
+        "amount": 342.702
+      },
+      {
+        "name": "Geluidhinder",
+        "amount": 2.3
+      },
+      {
+        "name": "Luchtverontreiniging",
+        "amount": 3.9
+      },
+      {
+        "name": "Onderzoek & opdrachten",
+        "amount": 9.27
+      },
+      {
+        "name": "Woningmarkt",
+        "amount": 4.652
+      },
+      {
+        "name": "Woningmarkt",
+        "amount": 2.894
+      },
+      {
+        "name": "Woningmarkt",
+        "amount": 3.444
+      },
+      {
+        "name": "Dienst van de huurcommissie",
+        "amount": 9.788
+      },
+      {
+        "name": "Woningbouw",
+        "amount": 1.207
+      },
+      {
+        "name": "Energietransitie en duurzaamheid",
+        "amount": 3.8
+      },
+      {
+        "name": "Bouwregelgeving en bouwkwaliteit",
+        "amount": 8.46
+      },
+      {
+        "name": "Programma Ruimtelijk Ontwerp",
+        "amount": 1.5
+      },
+      {
+        "name": "TNO",
+        "amount": 209.862
+      },
+      {
+        "name": "Missiegedreven Onderzoek Ontwikkeling en Innovatie (MOOI)",
+        "amount": 55.465
+      },
+      {
+        "name": "Investeringen waterstofbackbone",
+        "amount": 34.5
+      },
+      {
+        "name": "Bijdrage Metrologie",
+        "amount": 12.33
+      },
+      {
+        "name": "NWO-TTW",
+        "amount": 28.146
+      },
+      {
+        "name": "TO2 (excl. TNO)",
+        "amount": 60.234
+      },
+      {
+        "name": "Onderzoek en opdrachten",
+        "amount": 47.507
+      },
+      {
+        "name": "TNO kerndepartement",
+        "amount": 37.58
+      },
+      {
+        "name": "TNO SodM",
+        "amount": 2.077
+      },
+      {
+        "name": "Nuclear Research Group (NRG)",
+        "amount": 6.685
+      },
+      {
+        "name": "TNO publieke SDRA",
+        "amount": 1.4
+      },
+      {
+        "name": "Faciliteiten toegepast onderzoek TO2 en RKI",
+        "amount": 42.25
+      },
+      {
+        "name": "Accountantskamer",
+        "amount": 1.46
+      },
+      {
+        "name": "Overige opdrachten",
+        "amount": 1.145
+      },
+      {
+        "name": "Stichting Wetenschappelijk Onderzoek Verkeersveiligheid (SWOV)",
+        "amount": 4.27
+      },
+      {
+        "name": "Duurzame energiedragers in mobiliteit",
+        "amount": 1.323
+      },
+      {
+        "name": "Programma Mobiliteit en Gebieden",
+        "amount": 0.995
+      },
+      {
+        "name": "Overige opdrachten",
+        "amount": 0.97
+      },
+      {
+        "name": "Caribisch Nederland",
+        "amount": 0.467
+      },
+      {
+        "name": "Klimaatbeleid",
+        "amount": 1.188
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 23: Meteorelogie, seismogolie en aardobservatie",
+        "amount": 66.002
+      },
+      {
+        "name": "ZonMw",
+        "amount": 380.659
+      },
+      {
+        "name": "Stichting Klachten en Geschillen Zorgverzekeringen",
+        "amount": 1.476
+      },
+      {
+        "name": "Kwaliteit grondwater",
+        "amount": 11.2
+      }
+    ],
+    "N Verhuur en overige zakelijke diensten": [
+      {
+        "name": "Innovatiebox ",
+        "amount": 42.966931216931215
+      },
+      {
+        "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
+        "amount": 26.028
+      },
+      {
+        "name": "Milieubeheer en begraafplaatsen",
+        "amount": 727.5
+      }
+    ],
+    "O Openbaar bestuur en overheidsdiensten": [
+      {
+        "name": "RVB",
+        "amount": 1.0
+      },
+      {
+        "name": "Serviceteam Rijk",
+        "amount": 0.002
+      },
+      {
+        "name": "RIVM",
+        "amount": 0.126
+      },
+      {
+        "name": "CBS",
+        "amount": 0.13
+      },
+      {
+        "name": "KvK",
+        "amount": 0.2
+      },
+      {
+        "name": "Nationaal Groeifonds",
+        "amount": 0.2
+      },
+      {
+        "name": "ICTU",
+        "amount": 0.429
+      },
+      {
+        "name": "Basisregistraties",
+        "amount": 0.581
+      },
+      {
+        "name": "RODI",
+        "amount": 0.666
+      },
+      {
+        "name": "RDI",
+        "amount": 0.745
+      },
+      {
+        "name": "Digitale dienstverlening",
+        "amount": 0.89
+      },
+      {
+        "name": "Serviceteam Rijk",
+        "amount": 0.951
+      },
+      {
+        "name": "Nationaal Groeifonds",
+        "amount": 0.998
+      },
+      {
+        "name": "Dienst Publiek en Communicatie",
+        "amount": 1.0
+      },
+      {
+        "name": "Identiteitsstelsel",
+        "amount": 1.46
+      },
+      {
+        "name": "RDI",
+        "amount": 1.723
+      },
+      {
+        "name": "Diverse bijdragen",
+        "amount": 2.047
+      },
+      {
+        "name": "Geonovum",
+        "amount": 2.393
+      },
+      {
+        "name": "Basisregistraties Ondergrond",
+        "amount": 2.5
+      },
+      {
+        "name": "RVO",
+        "amount": 2.647
+      },
+      {
+        "name": "ICTU",
+        "amount": 3.409
+      },
+      {
+        "name": "RVO (Uitvoeringskosten BEW)",
+        "amount": 4.486
+      },
+      {
+        "name": "Eenvoudig Beter",
+        "amount": 4.5
+      },
+      {
+        "name": "Aan de Slag",
+        "amount": 4.981
+      },
+      {
+        "name": "RWS",
+        "amount": 5.147
+      },
+      {
+        "name": "KvK",
+        "amount": 6.713
+      },
+      {
+        "name": "RVO (Uitvoeringskosten BEW)",
+        "amount": 6.792
+      },
+      {
+        "name": "Aan de Slag",
+        "amount": 7.738
+      },
+      {
+        "name": "RvIG",
+        "amount": 10.687
+      },
+      {
+        "name": "Begroting BZK - Beleidsartikel 9: Uitvoering Rijksvastgoedbeleid",
+        "amount": 161.92
+      },
+      {
+        "name": "RVO",
+        "amount": 7.896
+      },
+      {
+        "name": "Tijdelijke uitvoeringsorganisatie",
+        "amount": 9.035
+      },
+      {
+        "name": "Begroting FIN - Beleidsartikel 9: Douane",
+        "amount": 1.488
+      },
+      {
+        "name": "Uitvoeringskracht woningbouw",
+        "amount": 10.5
+      },
+      {
+        "name": "Bijdrage aan ROM's",
+        "amount": 11.049
+      },
+      {
+        "name": "RVO (Energietransitie en duurzaamheid)",
+        "amount": 11.565
+      },
+      {
+        "name": "Begroting FIN - Beleidsartikel 1: Belastingen",
+        "amount": 14.366
+      },
+      {
+        "name": "Overheidsdienstverlening",
+        "amount": 14.397
+      },
+      {
+        "name": "ICTU",
+        "amount": 15.589
+      },
+      {
+        "name": "RvIG",
+        "amount": 29.152
+      },
+      {
+        "name": "Kadaster (Basisregistraties)",
+        "amount": 29.952
+      },
+      {
+        "name": "Kadaster   ",
+        "amount": 61.804
+      },
+      {
+        "name": "Begroting BZK - Beleidsartikel 6.7 Hoogwaardige dienstverlening één overheid",
+        "amount": 63.023
+      },
+      {
+        "name": "Begroting AZ - Beleidsartikel 1: Eenheid van het algemeen regeringsbeleid",
+        "amount": 89.4
+      },
+      {
+        "name": "Begroting BZK - Beleidsartikel 2: Nationale veiligheid",
+        "amount": 456.29
+      },
+      {
+        "name": "Begroting BZK - Beleidsartikel 1: Openbaar bestuur en democratie",
+        "amount": 558.217
+      },
+      {
+        "name": "Begroting Buitenlandse Zaken",
+        "amount": 12790.108
+      },
+      {
+        "name": "Begroting AZ - Beleidsartikel 3: Commissie van Toezicht op de Inlichtingen- en Veiligheidsdiensten",
+        "amount": 4.3
+      },
+      {
+        "name": "Ruimte en leefomgeving, wonen en bouwen",
+        "amount": 2583.0
+      },
+      {
+        "name": "RVO (Uitvoering Energieakkoord)",
+        "amount": 12.294
+      },
+      {
+        "name": "RVB",
+        "amount": 2.015
+      },
+      {
+        "name": "Begroting Defensie",
+        "amount": 21298.458
+      },
+      {
+        "name": "Raad voor Rechtspraak",
+        "amount": 2.5
+      },
+      {
+        "name": "Nationaal Groeifonds",
+        "amount": 2.111
+      },
+      {
+        "name": "Vervolgprogramma beter aanbesteden",
+        "amount": 1.599
+      },
+      {
+        "name": "RVO",
+        "amount": 13.656
+      },
+      {
+        "name": "Rijksinspectie Digitale Infrastructuur",
+        "amount": 48.251
+      },
+      {
+        "name": "Raad voor de Accreditatie",
+        "amount": 1.326
+      },
+      {
+        "name": "Bijdrage ACM",
+        "amount": 0.848
+      },
+      {
+        "name": "Bijdrage CBS",
+        "amount": 186.531
+      },
+      {
+        "name": "Bijdrage Nederlands Normalisatie Instituut",
+        "amount": 1.405
+      },
+      {
+        "name": "Europees Defensie Fonds cofinanciering",
+        "amount": 5.0
+      },
+      {
+        "name": "Caribisch Nederland",
+        "amount": 0.847
+      },
+      {
+        "name": "Budget Samenwerking regio",
+        "amount": 0.815
+      },
+      {
+        "name": "RVO",
+        "amount": 122.17
+      },
+      {
+        "name": "Rijksinspectie Digitale Infrastructuur",
+        "amount": 0.745
+      },
+      {
+        "name": "Kamer van Koophandel",
+        "amount": 142.917
+      },
+      {
+        "name": "Topsectoren overig",
+        "amount": 13.796
+      },
+      {
+        "name": "Overige bijdragen aan organisaties",
+        "amount": 6.061
+      },
+      {
+        "name": "RVO",
+        "amount": 9.552
+      },
+      {
+        "name": "Projecten Klimaat en Energieakkoord",
+        "amount": 13.452
+      },
+      {
+        "name": "RVO",
+        "amount": 96.476
+      },
+      {
+        "name": "RDI",
+        "amount": 9.041
+      },
+      {
+        "name": "NEa",
+        "amount": 18.432
+      },
+      {
+        "name": "KNMI",
+        "amount": 2.313
+      },
+      {
+        "name": "NVWA",
+        "amount": 0.968
+      },
+      {
+        "name": "RIVM",
+        "amount": 2.763
+      },
+      {
+        "name": "RWS",
+        "amount": 1.913
+      },
+      {
+        "name": "PBL Rekenmeesterfunctie",
+        "amount": 2.431
+      },
+      {
+        "name": "Werkbudgetten",
+        "amount": 22.691
+      },
+      {
+        "name": "RVO",
+        "amount": 208.479
+      },
+      {
+        "name": "Bestuur Instituut Mijnbouwschade Groningen (IMG)",
+        "amount": 2.57
+      },
+      {
+        "name": "SodM onderzoek",
+        "amount": 2.188
+      },
+      {
+        "name": "Onderzoek mijnbouwbodembeweging",
+        "amount": 1.59
+      },
+      {
+        "name": "Versterken industrie",
+        "amount": 0.8
+      },
+      {
+        "name": "Uitvoeringsagenda Klimaat",
+        "amount": 0.473
+      },
+      {
+        "name": "Overige materiele uitgaven",
+        "amount": 11.515
+      },
+      {
+        "name": "Overig",
+        "amount": 1.432
+      },
+      {
+        "name": "Overige opdrachten",
+        "amount": 23.464
+      },
+      {
+        "name": "Begroting FIN - Beleidsartikel 1: Belastingen",
+        "amount": 3240.867
+      },
+      {
+        "name": "Begroting FIN - Beleidsartikel 1: Belastingen",
+        "amount": 7.889
+      },
+      {
+        "name": "Eigen personeel",
+        "amount": 228.961
+      },
+      {
+        "name": "Inhuur externen",
+        "amount": 309.622
+      },
+      {
+        "name": "Overig personeel",
+        "amount": 1.089
+      },
+      {
+        "name": "Overig",
+        "amount": 1.652
+      },
+      {
+        "name": "Begroting FIN - Beleidsartikel 2: Financiele markten",
+        "amount": 10.211
+      },
+      {
+        "name": "Bijdrage FEC",
+        "amount": 4.008
+      },
+      {
+        "name": "Uitvoeringskosten staatsdeelnemingen",
+        "amount": 4.193
+      },
+      {
+        "name": "Begroting FIN - Beleidsartikel 3: Financieringsactiviteiten publiek-private sector",
+        "amount": 5.096
+      },
+      {
+        "name": "Begroting FIN - Beleidsartikel 9: Douane",
+        "amount": 804.823
+      },
+      {
+        "name": "Eigen personeel",
+        "amount": 524.033
+      },
+      {
+        "name": "Inhuur externen",
+        "amount": 9.62
+      },
+      {
+        "name": "Overig personeel",
+        "amount": 0.23
+      },
+      {
+        "name": "Bijdrage aan SSO's",
+        "amount": 0.165
+      },
+      {
+        "name": "Overig materieel",
+        "amount": 4.026
+      },
+      {
+        "name": "Bijdrage overige agentschappen",
+        "amount": 3.514
+      },
+      {
+        "name": "Fysieke Leefomgeving Omgevingswet (FLOW)",
+        "amount": 5.824
+      },
+      {
+        "name": "RIVM Bodem",
+        "amount": 1.325
+      },
+      {
+        "name": "RWS Leefomgeving",
+        "amount": 2.74
+      },
+      {
+        "name": "RWS",
+        "amount": 4.154
+      },
+      {
+        "name": "RIVM",
+        "amount": 4.514
+      },
+      {
+        "name": "RWS",
+        "amount": 7.831
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 14.1: Netwerk",
+        "amount": 0.508
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 14.2: Verkeersveiligheid",
+        "amount": 0.689
+      },
+      {
+        "name": "CBR",
+        "amount": 1.408
+      },
+      {
+        "name": "Strategie",
+        "amount": 1.701
+      },
+      {
+        "name": "Verkeersemissies",
+        "amount": 3.3
+      },
+      {
+        "name": "NEA",
+        "amount": 6.257
+      },
+      {
+        "name": "RWS",
+        "amount": 1.747
+      },
+      {
+        "name": "Overige bijdragen aan agentschappen",
+        "amount": 0.382
+      },
+      {
+        "name": "Overige opdrachten",
+        "amount": 0.285
+      },
+      {
+        "name": "ACM",
+        "amount": 4.535
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 16.1: OV en Spoor",
+        "amount": 0.844
+      },
+      {
+        "name": "Subsidie Maatschappelijke Raad Schiphol (MRS)",
+        "amount": 1.205
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 17: Luchtvaart",
+        "amount": 0.627
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 17: Luchtvaart",
+        "amount": 0.215
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 24: Inspectie Leefomgeving en Transport",
+        "amount": 203.031
+      },
+      {
+        "name": "Begroting JenV",
+        "amount": 24115.725
+      },
+      {
+        "name": "Begroting LNV - Beleidsartikel 4: Uitvoering en toezicht",
+        "amount": 527.461
+      },
+      {
+        "name": "Begroting SZW - Beleidsartikel 11: Uitvoeringskosten",
+        "amount": 697.239
+      },
+      {
+        "name": "NVWA",
+        "amount": 132.182
+      },
+      {
+        "name": "RIVM: Wettelijke taken en beleidsondersteuning zorgbreed",
+        "amount": 52.256
+      },
+      {
+        "name": "Overige",
+        "amount": 3.895
+      },
+      {
+        "name": "RIVM: Opdrachtverlening aan kenniscentra",
+        "amount": 154.637
+      },
+      {
+        "name": "Sociale Verzekeringsbank: Onverzekerden",
+        "amount": 6.87
+      },
+      {
+        "name": "Overige",
+        "amount": 3.47
+      },
+      {
+        "name": "Algemeen",
+        "amount": 0.491
+      },
+      {
+        "name": "Uitvoeringskosten Sociale Verzekeringsbank",
+        "amount": 54.501
+      },
+      {
+        "name": "Uitvoeringskosten Centrum Indicatiestelling Zorg",
+        "amount": 130.981
+      },
+      {
+        "name": "Kennis en informatiebeleid",
+        "amount": 13.778
+      },
+      {
+        "name": "Kennis en innovatie",
+        "amount": 15.321
+      },
+      {
+        "name": "Sociale Verzekeringsbank ",
+        "amount": 9.432
+      },
+      {
+        "name": "Pensioen- en Uitkeringsraad",
+        "amount": 0.65
+      },
+      {
+        "name": "Gemeentenbegrotingen - Bestuur en ondersteuning",
+        "amount": 15898.0
+      },
+      {
+        "name": "Gemeentenbegrotingen - Veiligheid",
+        "amount": 2635.0
+      },
+      {
+        "name": "Overhead",
+        "amount": 791.4
+      },
+      {
+        "name": "Provinciale staten",
+        "amount": 54.2
+      },
+      {
+        "name": "Gedeputeerde staten",
+        "amount": 35.2
+      },
+      {
+        "name": "Kabinetszaken",
+        "amount": 27.8
+      },
+      {
+        "name": "Bestuurlijke organisatie",
+        "amount": 62.3
+      },
+      {
+        "name": "Interbestuurlijk toezicht op de regio",
+        "amount": 6.5
+      },
+      {
+        "name": "Openbare orde en veiligheid",
+        "amount": 13.3
+      },
+      {
+        "name": "Bestuur, overig",
+        "amount": 53.9
+      },
+      {
+        "name": "Vergunningverlening en handhaving",
+        "amount": 223.7
+      },
+      {
+        "name": "Ruimte en leefomgeving",
+        "amount": 182.7
+      }
+    ],
+    "P Onderwijs": [
+      {
+        "name": "Kennis en innovatie",
+        "amount": 179.2
+      },
+      {
+        "name": "NGF -project Nationaal Onderwijslab",
+        "amount": 6.032
+      },
+      {
+        "name": "Vakbekwaamheid",
+        "amount": 4.961
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 16: Onderzoek en wetenschapsbeleid",
+        "amount": 1739.52
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 1: Primair onderwijs",
+        "amount": 15428.036
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 3: Voortgezet onderwijs",
+        "amount": 11459.272
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 4: Beroepsonderwijs en volwasseneneducatie",
+        "amount": 5642.932
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 6: Hoger beroepsonderwijs",
+        "amount": 4530.41
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 7: Wetenschappelijk onderwijs",
+        "amount": 7076.407
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 12: Tegemoetkoming onderwijsbijdrage en schoolkosten",
+        "amount": 78.25
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 13: Lesgelden",
+        "amount": 17.086
+      },
+      {
+        "name": "Onderwijs exclusief huisvesting",
+        "amount": 1732.0
+      },
+      {
+        "name": "EU-begroting - Onderzoek en innovatie",
+        "amount": 1113.626301541142
+      }
+    ],
+    "Q Gezondheids- en welzijnszorg": [
+      {
+        "name": "Bijdrage Wlz",
+        "amount": 12400.0
+      },
+      {
+        "name": "Maatwerkdienstverlening 18-",
+        "amount": 5387.0
+      },
+      {
+        "name": "Begroting SZW - Beleidsartikel 7: Kinderopvang",
+        "amount": 4616.255
+      },
+      {
+        "name": "Geestelijke bijstand",
+        "amount": 0.55
+      },
+      {
+        "name": "Maatwerkdienstverlening 18+",
+        "amount": 3966.0
+      },
+      {
+        "name": "Geëscaleerde zorg 18+",
+        "amount": 2431.0
+      },
+      {
+        "name": "Volksgezondheid",
+        "amount": 1129.0
+      },
+      {
+        "name": "Opleidingen, beroepenstructuur en arbeidsmarkt",
+        "amount": 705.755
+      },
+      {
+        "name": "Geëscaleerde zorg 18-",
+        "amount": 553.0
+      },
+      {
+        "name": "Zorg merkbaar beter maken",
+        "amount": 188.232
+      },
+      {
+        "name": "Zorg en Welzijn",
+        "amount": 167.391
+      },
+      {
+        "name": "Bevolkingsonderzoeken",
+        "amount": 165.288
+      },
+      {
+        "name": "Ziektepreventie",
+        "amount": 146.322
+      },
+      {
+        "name": "CAK",
+        "amount": 127.34
+      },
+      {
+        "name": "RIVM: Vaccinaties",
+        "amount": 117.375
+      },
+      {
+        "name": "Jeugdbeleid",
+        "amount": 104.161
+      },
+      {
+        "name": "Ziektepreventie",
+        "amount": 89.411
+      },
+      {
+        "name": "Regeling medische noozakelijke zorg onverzekerden",
+        "amount": 85.329
+      },
+      {
+        "name": "Medisch specialistische zorg",
+        "amount": 81.415
+      },
+      {
+        "name": "Pandemische paraatheid",
+        "amount": 79.653
+      },
+      {
+        "name": "Vaccinaties",
+        "amount": 77.108
+      },
+      {
+        "name": "ZiNL",
+        "amount": 76.76
+      },
+      {
+        "name": "Palliatieve zorg en ondersteuning",
+        "amount": 75.79
+      },
+      {
+        "name": "Nza",
+        "amount": 74.253
+      },
+      {
+        "name": "Zorg illegalen en andere onverzekerbare vreemdelingen",
+        "amount": 68.094
+      },
+      {
+        "name": "Inclusieve samenleving",
+        "amount": 66.862
+      },
+      {
+        "name": "RIVM: Bevolkingsonderzoeken",
+        "amount": 55.7
+      },
+      {
+        "name": "Patienten- en gehandicaptenorganisaties",
+        "amount": 50.0
+      },
+      {
+        "name": "Regeling veelbelovende zorg",
+        "amount": 47.32
+      },
+      {
+        "name": "(Lokaal) gezondheidsbeleid",
+        "amount": 45.756
+      },
+      {
+        "name": "Eerstelijnszorg",
+        "amount": 44.896
+      },
+      {
+        "name": "Inclusiviteit ",
+        "amount": 40.621
+      },
+      {
+        "name": "Pandemische paraatheid",
+        "amount": 38.34
+      },
+      {
+        "name": "Eerstelijnszorg",
+        "amount": 37.187
+      },
+      {
+        "name": "Schaderegeling Stint",
+        "amount": 36.0
+      },
+      {
+        "name": "Jeugdstelsel",
+        "amount": 30.099
+      },
+      {
+        "name": "Passende Zorg",
+        "amount": 30.087
+      },
+      {
+        "name": "Kennis, informatie en innovatiebeleid",
+        "amount": 29.964
+      },
+      {
+        "name": "Transparantie van de zorg",
+        "amount": 28.576
+      },
+      {
+        "name": "Gezonde leefstijl en gezond gewicht",
+        "amount": 26.929
+      },
+      {
+        "name": "Lichaamsmateriaal",
+        "amount": 24.85
+      },
+      {
+        "name": "Overige",
+        "amount": 24.712
+      },
+      {
+        "name": "Inkomensoverdrachten",
+        "amount": 24.562
+      },
+      {
+        "name": "Overgangsregeling FLO/VUT ouderenregeling ambulance personeel",
+        "amount": 24.462
+      },
+      {
+        "name": "Overige",
+        "amount": 24.456
+      },
+      {
+        "name": "Preventie van schadelijk middelengebruik",
+        "amount": 23.109
+      },
+      {
+        "name": "Opleidingen, beroepenstructuur en arbeidsmarkt",
+        "amount": 22.75
+      },
+      {
+        "name": "Zorgdragen voor langdurige zorg",
+        "amount": 21.456
+      },
+      {
+        "name": "Informatiebeleid",
+        "amount": 21.21
+      },
+      {
+        "name": "Bijdrage agentschappen",
+        "amount": 21.064
+      },
+      {
+        "name": "Bevordering van seksuele gezondheid",
+        "amount": 19.499
+      },
+      {
+        "name": "Abortusklinieken",
+        "amount": 19.201
+      },
+      {
+        "name": "Medische producten",
+        "amount": 17.838
+      },
+      {
+        "name": "Medisch specialistische zorg",
+        "amount": 17.125
+      },
+      {
+        "name": "Kinderopvang (incl. Caribisch Nederland)",
+        "amount": 15.691
+      },
+      {
+        "name": "CIBG",
+        "amount": 15.451
+      },
+      {
+        "name": "Overige",
+        "amount": 15.379
+      },
+      {
+        "name": "Doventolkvoorzieningen",
+        "amount": 13.985
+      },
+      {
+        "name": "NGF - project NXTGEN HIGH TECH",
+        "amount": 13.036666666666665
+      },
+      {
+        "name": "Gezondheidsbevordering",
+        "amount": 13.026
+      },
+      {
+        "name": "(Lokaal) gezondheidsbeleid",
+        "amount": 12.75
+      },
+      {
+        "name": "Curatieve ggz",
+        "amount": 12.651
+      },
+      {
+        "name": "Overige",
+        "amount": 11.55
+      },
+      {
+        "name": "Eerstelijnszorg",
+        "amount": 11.069
+      },
+      {
+        "name": "Overige ",
+        "amount": 10.813
+      },
+      {
+        "name": "Medische ethiek",
+        "amount": 10.514
+      },
+      {
+        "name": "Toegang tot zorg en ondersteuning",
+        "amount": 10.29
+      },
+      {
+        "name": "CIBG  ",
+        "amount": 9.723
+      },
+      {
+        "name": "Kennis en informatiebeleid",
+        "amount": 9.135
+      },
+      {
+        "name": "RegMed XB",
+        "amount": 8.0
+      },
+      {
+        "name": "Overige",
+        "amount": 7.798
+      },
+      {
+        "name": "Jeugdbeleid",
+        "amount": 7.62
+      },
+      {
+        "name": "Medisch specialistische zorg",
+        "amount": 6.727
+      },
+      {
+        "name": "Zorg- en dienstverlening",
+        "amount": 6.291
+      },
+      {
+        "name": "Letselpreventie",
+        "amount": 5.587
+      },
+      {
+        "name": "Overige",
+        "amount": 4.613
+      },
+      {
+        "name": "Algemeen",
+        "amount": 4.207
+      },
+      {
+        "name": "Overige",
+        "amount": 3.41
+      },
+      {
+        "name": "Passende zorg en levensbrede ondersteuning",
+        "amount": 3.378
+      },
+      {
+        "name": "Dopingautoriteit",
+        "amount": 3.188
+      },
+      {
+        "name": "Overige",
+        "amount": 2.929
+      },
+      {
+        "name": "Curatieve ggz",
+        "amount": 2.723
+      },
+      {
+        "name": "CIBG: Uitvoeringstaken medische ethiek",
+        "amount": 2.592
+      },
+      {
+        "name": "Curatieve ggz",
+        "amount": 2.549
+      },
+      {
+        "name": "Kennis en informatiebeleid",
+        "amount": 2.462
+      },
+      {
+        "name": "Toegang tot zorg en ondersteuning",
+        "amount": 2.372
+      },
+      {
+        "name": "Lichaamsmateriaal",
+        "amount": 2.225
+      },
+      {
+        "name": "Risicoverevening",
+        "amount": 2.182
+      },
+      {
+        "name": "Transparantie van de zorg",
+        "amount": 2.104
+      },
+      {
+        "name": "Medisch specialistische zorg",
+        "amount": 2.039
+      },
+      {
+        "name": "Overige",
+        "amount": 1.843
+      },
+      {
+        "name": "Zorg",
+        "amount": 1.75
+      },
+      {
+        "name": "Curatieve ggz",
+        "amount": 1.654
+      },
+      {
+        "name": "Overige",
+        "amount": 1.526
+      },
+      {
+        "name": "Kennis, informatie en innovatiebeleid",
+        "amount": 1.437
+      },
+      {
+        "name": "CSZ",
+        "amount": 1.4
+      },
+      {
+        "name": "Passende zorg en levensbrede ondersteuning",
+        "amount": 1.222
+      },
+      {
+        "name": "Onco research",
+        "amount": 0.63
+      },
+      {
+        "name": "Jeugdstelsel",
+        "amount": 0.615
+      },
+      {
+        "name": "Overige",
+        "amount": 0.593
+      },
+      {
+        "name": "Programma's zorgstelsel",
+        "amount": 0.423
+      },
+      {
+        "name": "Medische ethiek",
+        "amount": 0.381
+      },
+      {
+        "name": "Ondersteuning clientorganisaties",
+        "amount": 0.333
+      },
+      {
+        "name": "Algemene voorzieningen incl. wijkteams",
+        "amount": 5121.0
+      },
+      {
+        "name": "Overige subsidies",
+        "amount": 0.289
+      },
+      {
+        "name": "Overige",
+        "amount": 0.206
+      },
+      {
+        "name": "Eerstelijnszorg",
+        "amount": 0.11
+      },
+      {
+        "name": "Overige",
+        "amount": 0.1
+      },
+      {
+        "name": "Overige",
+        "amount": 0.013
+      }
+    ],
+    "R Cultuur, sport en recreatie": [
+      {
+        "name": "Beheer flora en fauna",
+        "amount": 79.2
+      },
+      {
+        "name": "Beheer natuurgebieden",
+        "amount": 210.15
+      },
+      {
+        "name": "Bijdrage NBTC",
+        "amount": 10.169
+      },
+      {
+        "name": "Afdrachten Staatsloterij",
+        "amount": 100.0
+      },
+      {
+        "name": "Begroting OCW - Beleidsartikel 14: Cultuur",
+        "amount": 1304.479
+      },
+      {
+        "name": "Sportakkoord",
+        "amount": 124.161
+      },
+      {
+        "name": "Sportakkoord",
+        "amount": 5.104
+      },
+      {
+        "name": "Kennis en innovatie",
+        "amount": 0.239
+      },
+      {
+        "name": "Nationaal Comite",
+        "amount": 5.96
+      },
+      {
+        "name": "Nationale herinneringscentra",
+        "amount": 3.004
+      },
+      {
+        "name": "Herinnering Indisch Molukse Doelgroep",
+        "amount": 5.386
+      },
+      {
+        "name": "Overige",
+        "amount": 5.93
+      },
+      {
+        "name": "Overige",
+        "amount": 0.4
+      },
+      {
+        "name": "Overige",
+        "amount": 0.461
+      },
+      {
+        "name": "Milieubeheer en begraafplaatsen",
+        "amount": 727.5
+      },
+      {
+        "name": "Sportbeleid en activering",
+        "amount": 422.0
+      },
+      {
+        "name": "Sportaccommodaties",
+        "amount": 1462.0
+      },
+      {
+        "name": "Cultuurpresentatie, - productie en - participatie",
+        "amount": 1286.0
+      },
+      {
+        "name": "Musea",
+        "amount": 390.0
+      },
+      {
+        "name": "Cultureel erfgoed",
+        "amount": 137.0
+      },
+      {
+        "name": "Openbaar groen en (open)lucht recreatie",
+        "amount": 2030.0
+      },
+      {
+        "name": "Btw Verlaagd tarief culturele en recreatieve goederen en diensten",
+        "amount": 1092.0
+      },
+      {
+        "name": "Fiscale faciliteiten Natuurschoonwet",
+        "amount": 50.0
+      },
+      {
+        "name": "Recreatie en toerisme",
+        "amount": 82.9
+      },
+      {
+        "name": "Cultuur ",
+        "amount": 313.8
+      },
+      {
+        "name": "Cultuur en maatschappij, overig",
+        "amount": 14.4
+      }
+    ],
+    "S Overige dienstverlening": [
+      {
+        "name": "Btw Verlaagd tarief arbeidsintensieve diensten",
+        "amount": 887.2
+      },
+      {
+        "name": "Veilig Verkeer Nederland (VVN)",
+        "amount": 4.139
+      },
+      {
+        "name": "Overige subsidies",
+        "amount": 1.703
+      },
+      {
+        "name": "Overige subsidies",
+        "amount": 1.189
+      },
+      {
+        "name": "Vrijstelling rechten op kapitaalsuitkering bij overlijden box 3",
+        "amount": 49.0
+      }
+    ],
+    "U Extraterritoriale organisaties": [
+      {
+        "name": "EU-cofinanciering JTF",
+        "amount": 17.73
+      },
+      {
+        "name": "EIB pan-Europees garantiefonds",
+        "amount": 17.794
+      },
+      {
+        "name": "Bijdrage aan internationale organisaties",
+        "amount": 3.142
+      },
+      {
+        "name": "Ruimtevaart (ESA)",
+        "amount": 83.719
+      },
+      {
+        "name": "Internationale contributies",
+        "amount": 1.79
+      },
+      {
+        "name": "Begroting FIN - Beleidsartikel 13: Toeslagen",
+        "amount": 4.13
+      },
+      {
+        "name": "Begroting FIN - Beleidsartikel 4: Internationale financiele betrekkingen ",
+        "amount": 414.473
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 13: Bodem en Ondergrond",
+        "amount": 0.008
+      },
+      {
+        "name": "Begroting IenW - Beleidsartikel 16.1: OV en Spoor",
+        "amount": 0.102
+      },
+      {
+        "name": "International Civial Aviation Organisation",
+        "amount": 1.455
+      },
+      {
+        "name": "Overige bijdragen aan (inter-)nationale organistaties",
+        "amount": 0.171
+      },
+      {
+        "name": "Overige",
+        "amount": 0.226
+      }
+    ]
+  }
+}

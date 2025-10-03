@@ -1,0 +1,23 @@
+# Excel files and temporary files
+*.xlsx
+~$*.xlsx
+*.xls
+~$*.xls
+
+# PDF files (style guide)
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local development
+serve.py
+
+# Claude AI files
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
