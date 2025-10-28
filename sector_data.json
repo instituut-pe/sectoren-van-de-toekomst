@@ -1,23 +1,24 @@
 {
   "sector_totals": {
-    "A Landbouw, bosbouw en visserij": 3833.6614579017214,
-    "D Energievoorziening": 445.98900680362414,
-    "E Waterbedrijven en afvalbeheer": 2672.416253968254,
-    "F Bouwnijverheid": 28120.660145421112,
-    "G Handel": 570.0225835994114,
-    "H Vervoer en opslag": 4323.490860320516,
-    "I Horeca": 1392.034,
-    "J Informatie en communicatie": 3572.6356719576715,
-    "K Financiële dienstverlening": 4611.659862433862,
-    "L Verhuur en handel van onroerend goed": 24.016,
-    "M Specialistische zakelijke diensten": 1845.141365079365,
-    "N Verhuur en overige zakelijke diensten": 792.4525828049966,
-    "O Openbaar bestuur en overheidsdiensten": 90610.09,
-    "P Onderwijs": 49005.037402599846,
-    "Q Gezondheids- en welzijnszorg": 39230.00276772538,
-    "R Cultuur, sport en recreatie": 8904.243,
-    "S Overige dienstverlening": 943.231,
-    "U Extraterritoriale organisaties": 542.864
+    "A Landbouw, bosbouw en visserij": 3610.9647754372663,
+    "B Delfstoffenwinning": -57.47948948359934,
+    "C Industrie": -7848.745546290938,
+    "D Energievoorziening": 445.98900680362436,
+    "E Waterbedrijven en afvalbeheer": 2629.250377191003,
+    "F Bouwnijverheid": 28018.631709402158,
+    "G Handel": -8.792582277366002,
+    "H Vervoer en opslag": 4199.879485912933,
+    "I Horeca": 1165.4131469194313,
+    "J Informatie en communicatie": 3473.5503639007993,
+    "K Financiële dienstverlening": 4550.8352178841,
+    "L Verhuur en handel van onroerend goed": -52.50532701421801,
+    "M Specialistische zakelijke diensten": 1711.7195641314977,
+    "N Verhuur en overige zakelijke diensten": 706.1208292504942,
+    "O Openbaar bestuur en overheidsdiensten": 90464.8956872038,
+    "P Onderwijs": 48891.20860165199,
+    "Q Gezondheids- en welzijnszorg": 38996.514616066605,
+    "R Cultuur, sport en recreatie": 8811.043947867298,
+    "S Overige dienstverlening": 817.6575402843602
   },
   "sector_details": {
     "A Landbouw, bosbouw en visserij": [
@@ -28,6 +29,14 @@
       {
         "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
         "amount": 33.258
+      },
+      {
+        "name": "ETS-ontvangsten",
+        "amount": -2.694898941289702
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -222.696682464455
       },
       {
         "name": "Beheer natuurgebieden",
@@ -50,11 +59,11 @@
         "amount": 1.701
       },
       {
-        "name": "Begroting LNV - Beleidsartikel 1: Land- en tuinbouw",
+        "name": "Begroting LNV - Beleidsartikel 1: Land- en tuinbouw - Verplichtingen",
         "amount": 909.109
       },
       {
-        "name": "Begroting LNV - Beleidsartikel 2: Natuur, visserij en gebiedsgericht werken",
+        "name": "Begroting LNV - Beleidsartikel 2: Natuur, visserij en gebiedsgericht werken - Verplichtingen",
         "amount": 770.485
       },
       {
@@ -82,11 +91,191 @@
         "amount": 139.8
       },
       {
-        "name": "EU-begroting - Landbouw en maritiem beleid",
+        "name": "EU-begroting - Landbouw en maritiem beleid - Vastleggingen",
         "amount": 852.11511199718
       }
     ],
+    "B Delfstoffenwinning": [
+      {
+        "name": "ETS-ontvangsten",
+        "amount": -30.991337824831568
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -26.488151658767773
+      }
+    ],
+    "C Industrie": [
+      {
+        "name": "Innovatiebox ",
+        "amount": 1476.5
+      },
+      {
+        "name": "Btw Kleineondernemersregeling",
+        "amount": 19.038
+      },
+      {
+        "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
+        "amount": 287.754
+      },
+      {
+        "name": "ETS-ontvangsten",
+        "amount": -134.74494706448507
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -1037.9431279620853
+      },
+      {
+        "name": "Btw Verlaagd tarief voedingsmiddelen en water",
+        "amount": 9340.0
+      },
+      {
+        "name": "Btw Verlaagd tarief geneesmiddelen en hulpmiddelen",
+        "amount": 1914.0
+      },
+      {
+        "name": "Medische producten",
+        "amount": 357.638
+      },
+      {
+        "name": "IPCEI Micro elektronica",
+        "amount": 143.088
+      },
+      {
+        "name": "Investeringen Verduurzaming Industrie - Klimaatfonds",
+        "amount": 134.21
+      },
+      {
+        "name": "Elektrisch vervoer",
+        "amount": 113.124
+      },
+      {
+        "name": "NGF - project Groenvermogen van de Nederlandse economie",
+        "amount": 84.879
+      },
+      {
+        "name": "Verduurzaming industrie",
+        "amount": 79.322
+      },
+      {
+        "name": "R&D mobiliteitssectoren",
+        "amount": 33.1
+      },
+      {
+        "name": "Reservering Klimaatakkoord",
+        "amount": 26.7
+      },
+      {
+        "name": "Urgendamaatregelen industrie",
+        "amount": 11.94
+      },
+      {
+        "name": "Stikstofaanpak piekbelasters industrie",
+        "amount": 11.5
+      },
+      {
+        "name": "SDE (+)(+)",
+        "amount": 108.23419540229885
+      },
+      {
+        "name": "NGF -project Circulaire zonnepanelen",
+        "amount": 135.0
+      },
+      {
+        "name": "NGF-project QuantumDeltaNL",
+        "amount": 127.818
+      },
+      {
+        "name": "NGF - project PhotonDelta",
+        "amount": 67.125
+      },
+      {
+        "name": "NGF- project RegMed XB",
+        "amount": 10.649
+      },
+      {
+        "name": "NGF- projectNXTGEN Ruimtevaart",
+        "amount": 9.73
+      },
+      {
+        "name": "EuroHPC",
+        "amount": 10.193
+      },
+      {
+        "name": "EuroQCI",
+        "amount": 5.606
+      },
+      {
+        "name": "Carbon Capture Storage (CCS)",
+        "amount": 4.664
+      },
+      {
+        "name": "NGF - project NXTGEN HIGH TECH",
+        "amount": 26.07333333333333
+      },
+      {
+        "name": "Subsidieregeling Duurzame Scheepsbouw (SDS)",
+        "amount": 1.696
+      },
+      {
+        "name": "Verduurzaming industrie",
+        "amount": 1.12
+      },
+      {
+        "name": "Versterken industrie",
+        "amount": 0.241
+      },
+      {
+        "name": "Brandstoffenheffingen",
+        "amount": -1.0
+      },
+      {
+        "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Indirecte belastingen - Belasting op zware motorrijtuigen",
+        "amount": -213.0
+      },
+      {
+        "name": "Wijnaccijns",
+        "amount": -387.0
+      },
+      {
+        "name": "Alcoholaccijns",
+        "amount": -425.0
+      },
+      {
+        "name": "Bieraccijns",
+        "amount": -528.0
+      },
+      {
+        "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Indirecte belastingen - Verbruiksbelasting van alcoholvrij dranken e.a.",
+        "amount": -690.0
+      },
+      {
+        "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Indirecte belastingen - Belasting op personenauto's en motorrijwielen",
+        "amount": -1485.0
+      },
+      {
+        "name": "Tabaksaccijns",
+        "amount": -3533.0
+      },
+      {
+        "name": "Accijns van minerale olien, anders dan lichte olie",
+        "amount": -3845.0
+      },
+      {
+        "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Indirecte belastingen - Motorrijtuigenbelasting",
+        "amount": -4946.0
+      },
+      {
+        "name": "Accijns van lichte olie",
+        "amount": -5164.0
+      }
+    ],
     "D Energievoorziening": [
+      {
+        "name": "ETS-ontvangsten",
+        "amount": -1197.8825794032723
+      },
       {
         "name": "Programma Opweg Energie op Rijksvastgoed (OER)",
         "amount": 16.805
@@ -158,6 +347,10 @@
         "amount": 11.718253968253968
       },
       {
+        "name": "Energiebelasting",
+        "amount": -43.165876777251185
+      },
+      {
         "name": "Kwaliteit oppervlaktewater",
         "amount": 19.6
       },
@@ -178,6 +371,14 @@
         "amount": 9.135
       },
       {
+        "name": "Afvalstoffenbelasting",
+        "amount": -273.0
+      },
+      {
+        "name": "Waterbelasting",
+        "amount": -368.0
+      },
+      {
         "name": "Afval",
         "amount": 2302.0
       },
@@ -188,7 +389,7 @@
     ],
     "F Bouwnijverheid": [
       {
-        "name": "Begroting IenW - Beleidsartikel 26: Bijdrage investeringsfondsen",
+        "name": "Begroting IenW - Beleidsartikel 26: Bijdrage investeringsfondsen - Verplichtingen",
         "amount": 11533.484
       },
       {
@@ -228,7 +429,7 @@
         "amount": 663.0
       },
       {
-        "name": "Begroting IenW - Beleidsartikel 14: Wegen en Verkeersveiligheid",
+        "name": "Begroting IenW - Beleidsartikel 14: Wegen en Verkeersveiligheid - Verplichtingen",
         "amount": 503.006
       },
       {
@@ -244,7 +445,7 @@
         "amount": 174.4
       },
       {
-        "name": "EU-begroting - Regionale ontwikkeling en cohesie",
+        "name": "EU-begroting - Regionale ontwikkeling en cohesie - Vastleggingen",
         "amount": 114.5947909237587
       },
       {
@@ -440,6 +641,10 @@
         "amount": 0.3
       },
       {
+        "name": "Energiebelasting",
+        "amount": -102.02843601895735
+      },
+      {
         "name": "Herstructurering winkelgebieden",
         "amount": 16.0
       }
@@ -458,6 +663,14 @@
         "amount": 133.032
       },
       {
+        "name": "ETS-ontvangsten",
+        "amount": -8.084696823869104
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -578.8151658767773
+      },
+      {
         "name": "Nationaal Isolatie Programma",
         "amount": 25.98
       },
@@ -474,6 +687,14 @@
       {
         "name": "Btw Kleineondernemersregeling",
         "amount": 13.026
+      },
+      {
+        "name": "ETS-ontvangsten",
+        "amount": -16.169393647738207
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -123.61137440758293
       },
       {
         "name": "Reservering Klimaatakkoord",
@@ -532,12 +753,16 @@
         "amount": 0.959
       },
       {
-        "name": "Begroting IenW - Beleidsartikel 18: Scheepvaart en havens",
+        "name": "Begroting IenW - Beleidsartikel 18: Scheepvaart en havens - Verplichtingen",
         "amount": 195.353
       },
       {
         "name": "Bovenregionaal gehandicaptenvervoer",
         "amount": 63.959
+      },
+      {
+        "name": "Vliegbelasting",
+        "amount": -710.0
       },
       {
         "name": "Havens en waterwegen",
@@ -582,6 +807,10 @@
         "amount": 17.034
       },
       {
+        "name": "Energiebelasting",
+        "amount": -226.62085308056874
+      },
+      {
         "name": "Btw Verlaagd tarief Logiesverstrekking",
         "amount": 1375.0
       }
@@ -600,6 +829,10 @@
         "amount": 286.308
       },
       {
+        "name": "Energiebelasting",
+        "amount": -99.08530805687204
+      },
+      {
         "name": "ICT",
         "amount": 0.275
       },
@@ -616,7 +849,7 @@
         "amount": 239.081
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 15: Media",
+        "name": "Begroting OCW - Beleidsartikel 15: Media - Verplichtingen",
         "amount": 1213.908
       },
       {
@@ -726,6 +959,10 @@
         "amount": 274.74
       },
       {
+        "name": "Energiebelasting",
+        "amount": -60.824644549763036
+      },
+      {
         "name": "Invest NL",
         "amount": 11.6
       },
@@ -740,6 +977,10 @@
       {
         "name": "Uitvoering zorverzekeringsstelsel",
         "amount": 15.661
+      },
+      {
+        "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Indirecte belastingen - Bankbelasting",
+        "amount": -473.0
       },
       {
         "name": "ASB Vrijstelling levensverzekeringen",
@@ -776,6 +1017,10 @@
         "amount": 8.016
       },
       {
+        "name": "Energiebelasting",
+        "amount": -76.52132701421802
+      },
+      {
         "name": "Kamerverhuurvrijstelling",
         "amount": 16.0
       }
@@ -792,6 +1037,10 @@
       {
         "name": "Afdrachtvermindering speur- en ontwikkelingswerk WBSO",
         "amount": 342.702
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -133.4218009478673
       },
       {
         "name": "Geluidhinder",
@@ -918,7 +1167,7 @@
         "amount": 1.188
       },
       {
-        "name": "Begroting IenW - Beleidsartikel 23: Meteorelogie, seismogolie en aardobservatie",
+        "name": "Begroting IenW - Beleidsartikel 23: Meteorelogie, seismogolie en aardobservatie - Verplichtingen",
         "amount": 66.002
       },
       {
@@ -944,6 +1193,14 @@
         "amount": 26.028
       },
       {
+        "name": "ETS-ontvangsten",
+        "amount": -4.042348411934552
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -86.33175355450237
+      },
+      {
         "name": "Milieubeheer en begraafplaatsen",
         "amount": 727.5
       }
@@ -952,6 +1209,10 @@
       {
         "name": "RVB",
         "amount": 1.0
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -145.19431279620855
       },
       {
         "name": "Serviceteam Rijk",
@@ -1066,7 +1327,7 @@
         "amount": 10.687
       },
       {
-        "name": "Begroting BZK - Beleidsartikel 9: Uitvoering Rijksvastgoedbeleid",
+        "name": "Begroting BZK - Beleidsartikel 9: Uitvoering Rijksvastgoedbeleid - Verplichtingen",
         "amount": 161.92
       },
       {
@@ -1078,7 +1339,7 @@
         "amount": 9.035
       },
       {
-        "name": "Begroting FIN - Beleidsartikel 9: Douane",
+        "name": "Begroting FIN - Beleidsartikel 9: Douane - Bijdrage aan ZBO's / RWT's",
         "amount": 1.488
       },
       {
@@ -1094,7 +1355,7 @@
         "amount": 11.565
       },
       {
-        "name": "Begroting FIN - Beleidsartikel 1: Belastingen",
+        "name": "Begroting FIN - Beleidsartikel 1: Belastingen - Bijdrage aan ZBO's / RWT's",
         "amount": 14.366
       },
       {
@@ -1122,23 +1383,23 @@
         "amount": 63.023
       },
       {
-        "name": "Begroting AZ - Beleidsartikel 1: Eenheid van het algemeen regeringsbeleid",
+        "name": "Begroting AZ - Beleidsartikel 1: Eenheid van het algemeen regeringsbeleid - Verplichtingen",
         "amount": 89.4
       },
       {
-        "name": "Begroting BZK - Beleidsartikel 2: Nationale veiligheid",
+        "name": "Begroting BZK - Beleidsartikel 2: Nationale veiligheid - Verplichtingen",
         "amount": 456.29
       },
       {
-        "name": "Begroting BZK - Beleidsartikel 1: Openbaar bestuur en democratie",
+        "name": "Begroting BZK - Beleidsartikel 1: Openbaar bestuur en democratie - Verplichtingen",
         "amount": 558.217
       },
       {
-        "name": "Begroting Buitenlandse Zaken",
+        "name": "Begroting Buitenlandse Zaken - Verplichtingen",
         "amount": 12790.108
       },
       {
-        "name": "Begroting AZ - Beleidsartikel 3: Commissie van Toezicht op de Inlichtingen- en Veiligheidsdiensten",
+        "name": "Begroting AZ - Beleidsartikel 3: Commissie van Toezicht op de Inlichtingen- en Veiligheidsdiensten - Verplichtingen",
         "amount": 4.3
       },
       {
@@ -1154,7 +1415,7 @@
         "amount": 2.015
       },
       {
-        "name": "Begroting Defensie",
+        "name": "Begroting Defensie - Verplichtingen",
         "amount": 21298.458
       },
       {
@@ -1306,11 +1567,11 @@
         "amount": 23.464
       },
       {
-        "name": "Begroting FIN - Beleidsartikel 1: Belastingen",
+        "name": "Begroting FIN - Beleidsartikel 1: Belastingen - Apparaatsuitgaven",
         "amount": 3240.867
       },
       {
-        "name": "Begroting FIN - Beleidsartikel 1: Belastingen",
+        "name": "Begroting FIN - Beleidsartikel 1: Belastingen - Bijdrage agentschappen",
         "amount": 7.889
       },
       {
@@ -1330,7 +1591,7 @@
         "amount": 1.652
       },
       {
-        "name": "Begroting FIN - Beleidsartikel 2: Financiele markten",
+        "name": "Begroting FIN - Beleidsartikel 2: Financiele markten - Bijdrage aan ZBO's / RWT's",
         "amount": 10.211
       },
       {
@@ -1342,11 +1603,11 @@
         "amount": 4.193
       },
       {
-        "name": "Begroting FIN - Beleidsartikel 3: Financieringsactiviteiten publiek-private sector",
+        "name": "Begroting FIN - Beleidsartikel 3: Financieringsactiviteiten publiek-private sector - Bijdrage aan ZBO's / RWT's",
         "amount": 5.096
       },
       {
-        "name": "Begroting FIN - Beleidsartikel 9: Douane",
+        "name": "Begroting FIN - Beleidsartikel 9: Douane - Verplichtingen",
         "amount": 804.823
       },
       {
@@ -1398,11 +1659,11 @@
         "amount": 7.831
       },
       {
-        "name": "Begroting IenW - Beleidsartikel 14.1: Netwerk",
+        "name": "Begroting IenW - Beleidsartikel 14.1: Netwerk - Bijdrage aan ZBO's / RWT's",
         "amount": 0.508
       },
       {
-        "name": "Begroting IenW - Beleidsartikel 14.2: Verkeersveiligheid",
+        "name": "Begroting IenW - Beleidsartikel 14.2: Verkeersveiligheid - Bijdrage agentschappen",
         "amount": 0.689
       },
       {
@@ -1438,7 +1699,7 @@
         "amount": 4.535
       },
       {
-        "name": "Begroting IenW - Beleidsartikel 16.1: OV en Spoor",
+        "name": "Begroting IenW - Beleidsartikel 16.1: OV en Spoor - Bijdrage agentschappen",
         "amount": 0.844
       },
       {
@@ -1446,27 +1707,27 @@
         "amount": 1.205
       },
       {
-        "name": "Begroting IenW - Beleidsartikel 17: Luchtvaart",
+        "name": "Begroting IenW - Beleidsartikel 17: Luchtvaart - Bijdrage agentschappen",
         "amount": 0.627
       },
       {
-        "name": "Begroting IenW - Beleidsartikel 17: Luchtvaart",
+        "name": "Begroting IenW - Beleidsartikel 17: Luchtvaart - Bijdragen aan ZBO's/RWT's ",
         "amount": 0.215
       },
       {
-        "name": "Begroting IenW - Beleidsartikel 24: Inspectie Leefomgeving en Transport",
+        "name": "Begroting IenW - Beleidsartikel 24: Inspectie Leefomgeving en Transport - Verplichtingen",
         "amount": 203.031
       },
       {
-        "name": "Begroting JenV",
+        "name": "Begroting JenV - Verplichtingen",
         "amount": 24115.725
       },
       {
-        "name": "Begroting LNV - Beleidsartikel 4: Uitvoering en toezicht",
+        "name": "Begroting LNV - Beleidsartikel 4: Uitvoering en toezicht - Verplichtingen",
         "amount": 527.461
       },
       {
-        "name": "Begroting SZW - Beleidsartikel 11: Uitvoeringskosten",
+        "name": "Begroting SZW - Beleidsartikel 11: Uitvoeringskosten - Verplichtingen",
         "amount": 697.239
       },
       {
@@ -1522,11 +1783,11 @@
         "amount": 0.65
       },
       {
-        "name": "Gemeentenbegrotingen - Bestuur en ondersteuning",
+        "name": "Gemeentenbegrotingen - Bestuur en ondersteuning - Lasten",
         "amount": 15898.0
       },
       {
-        "name": "Gemeentenbegrotingen - Veiligheid",
+        "name": "Gemeentenbegrotingen - Veiligheid - Lasten",
         "amount": 2635.0
       },
       {
@@ -1572,6 +1833,18 @@
     ],
     "P Onderwijs": [
       {
+        "name": "ETS-ontvangsten",
+        "amount": -2.694898941289702
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -133.4218009478673
+      },
+      {
+        "name": "NGF- project Opschaling PPS beroepsonderwijs",
+        "amount": 19.593
+      },
+      {
         "name": "Kennis en innovatie",
         "amount": 179.2
       },
@@ -1584,35 +1857,35 @@
         "amount": 4.961
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 16: Onderzoek en wetenschapsbeleid",
+        "name": "Begroting OCW - Beleidsartikel 16: Onderzoek en wetenschapsbeleid - Verplichtingen",
         "amount": 1739.52
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 1: Primair onderwijs",
+        "name": "Begroting OCW - Beleidsartikel 1: Primair onderwijs - Verplichtingen",
         "amount": 15428.036
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 3: Voortgezet onderwijs",
+        "name": "Begroting OCW - Beleidsartikel 3: Voortgezet onderwijs - Verplichtingen",
         "amount": 11459.272
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 4: Beroepsonderwijs en volwasseneneducatie",
+        "name": "Begroting OCW - Beleidsartikel 4: Beroepsonderwijs en volwasseneneducatie - Verplichtingen",
         "amount": 5642.932
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 6: Hoger beroepsonderwijs",
+        "name": "Begroting OCW - Beleidsartikel 6: Hoger beroepsonderwijs - Verplichtingen",
         "amount": 4530.41
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 7: Wetenschappelijk onderwijs",
+        "name": "Begroting OCW - Beleidsartikel 7: Wetenschappelijk onderwijs - Verplichtingen",
         "amount": 7076.407
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 12: Tegemoetkoming onderwijsbijdrage en schoolkosten",
+        "name": "Begroting OCW - Beleidsartikel 12: Tegemoetkoming onderwijsbijdrage en schoolkosten - Verplichtingen",
         "amount": 78.25
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 13: Lesgelden",
+        "name": "Begroting OCW - Beleidsartikel 13: Lesgelden - Verplichtingen",
         "amount": 17.086
       },
       {
@@ -1620,11 +1893,19 @@
         "amount": 1732.0
       },
       {
-        "name": "EU-begroting - Onderzoek en innovatie",
+        "name": "EU-begroting - Onderzoek en innovatie - Vastleggingen",
         "amount": 1113.626301541142
       }
     ],
     "Q Gezondheids- en welzijnszorg": [
+      {
+        "name": "ETS-ontvangsten",
+        "amount": -2.694898941289702
+      },
+      {
+        "name": "Energiebelasting",
+        "amount": -233.48815165876778
+      },
       {
         "name": "Bijdrage Wlz",
         "amount": 12400.0
@@ -1634,7 +1915,7 @@
         "amount": 5387.0
       },
       {
-        "name": "Begroting SZW - Beleidsartikel 7: Kinderopvang",
+        "name": "Begroting SZW - Beleidsartikel 7: Kinderopvang - Verplichtingen",
         "amount": 4616.255
       },
       {
@@ -2064,6 +2345,10 @@
     ],
     "R Cultuur, sport en recreatie": [
       {
+        "name": "Energiebelasting",
+        "amount": -93.19905213270141
+      },
+      {
         "name": "Beheer flora en fauna",
         "amount": 79.2
       },
@@ -2080,7 +2365,7 @@
         "amount": 100.0
       },
       {
-        "name": "Begroting OCW - Beleidsartikel 14: Cultuur",
+        "name": "Begroting OCW - Beleidsartikel 14: Cultuur - Verplichtingen",
         "amount": 1304.479
       },
       {
@@ -2118,6 +2403,10 @@
       {
         "name": "Overige",
         "amount": 0.461
+      },
+      {
+        "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Directe belastingen - Kansspelbelasting",
+        "amount": -958.0
       },
       {
         "name": "Milieubeheer en begraafplaatsen",
@@ -2174,6 +2463,10 @@
         "amount": 887.2
       },
       {
+        "name": "Energiebelasting",
+        "amount": -125.57345971563981
+      },
+      {
         "name": "Veilig Verkeer Nederland (VVN)",
         "amount": 4.139
       },
@@ -2188,56 +2481,6 @@
       {
         "name": "Vrijstelling rechten op kapitaalsuitkering bij overlijden box 3",
         "amount": 49.0
-      }
-    ],
-    "U Extraterritoriale organisaties": [
-      {
-        "name": "EU-cofinanciering JTF",
-        "amount": 17.73
-      },
-      {
-        "name": "EIB pan-Europees garantiefonds",
-        "amount": 17.794
-      },
-      {
-        "name": "Bijdrage aan internationale organisaties",
-        "amount": 3.142
-      },
-      {
-        "name": "Ruimtevaart (ESA)",
-        "amount": 83.719
-      },
-      {
-        "name": "Internationale contributies",
-        "amount": 1.79
-      },
-      {
-        "name": "Begroting FIN - Beleidsartikel 13: Toeslagen",
-        "amount": 4.13
-      },
-      {
-        "name": "Begroting FIN - Beleidsartikel 4: Internationale financiele betrekkingen ",
-        "amount": 414.473
-      },
-      {
-        "name": "Begroting IenW - Beleidsartikel 13: Bodem en Ondergrond",
-        "amount": 0.008
-      },
-      {
-        "name": "Begroting IenW - Beleidsartikel 16.1: OV en Spoor",
-        "amount": 0.102
-      },
-      {
-        "name": "International Civial Aviation Organisation",
-        "amount": 1.455
-      },
-      {
-        "name": "Overige bijdragen aan (inter-)nationale organistaties",
-        "amount": 0.171
-      },
-      {
-        "name": "Overige",
-        "amount": 0.226
       }
     ]
   }

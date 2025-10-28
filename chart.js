@@ -63,16 +63,25 @@ class SectorChart {
         const sectors = Object.keys(this.data.sector_totals);
         const totals = Object.values(this.data.sector_totals);
 
-        // Sort by total amount (descending)
+        // Sort by total amount (descending by absolute value, then by actual value)
         const sortedData = sectors.map((sector, index) => ({
             sector: sector,
             total: totals[index]
-        })).sort((a, b) => b.total - a.total);
+        })).sort((a, b) => {
+            // Sort by absolute value descending, then by actual value descending for same absolute values
+            const absA = Math.abs(a.total);
+            const absB = Math.abs(b.total);
+            if (absB !== absA) return absB - absA;
+            return b.total - a.total;
+        });
 
         const sortedSectors = sortedData.map(d => this.formatSectorName(d.sector));
         const sortedTotals = sortedData.map(d => d.total);
         const originalSectors = sortedData.map(d => d.sector);
         const fullSectorNames = sortedData.map(d => this.formatSectorName(d.sector)); // Store full names for tooltip
+
+        // Color bars based on positive/negative values
+        const barColors = sortedTotals.map(total => total >= 0 ? '#d63f44' : '#4790b1');
 
         if (this.chart) {
             this.chart.destroy();
@@ -85,8 +94,8 @@ class SectorChart {
                 datasets: [{
                     label: 'Totaal bedrag (miljoen €)',
                     data: sortedTotals,
-                    backgroundColor: this.colors.slice(0, sortedSectors.length),
-                    borderColor: this.colors.slice(0, sortedSectors.length),
+                    backgroundColor: barColors,
+                    borderColor: barColors,
                     borderWidth: 1,
                     originalSectors: originalSectors, // Store original sector names
                     fullNames: fullSectorNames // Store full display names for tooltip
@@ -96,6 +105,11 @@ class SectorChart {
                 indexAxis: 'y', // Make bars horizontal
                 responsive: true,
                 maintainAspectRatio: false,
+                interaction: {
+                    mode: 'nearest',
+                    axis: 'y',
+                    intersect: false
+                },
                 plugins: {
                     title: {
                         display: true,
@@ -129,7 +143,13 @@ class SectorChart {
                     x: {
                         beginAtZero: true,
                         grid: {
-                            color: '#f4ede3'
+                            color: (context) => {
+                                // Make the zero line more visible
+                                return context.tick.value === 0 ? '#1f497d' : '#f4ede3';
+                            },
+                            lineWidth: (context) => {
+                                return context.tick.value === 0 ? 2 : 1;
+                            }
                         },
                         ticks: {
                             color: '#1f497d',
@@ -188,12 +208,20 @@ class SectorChart {
             return;
         }
 
-        // Sort measures by amount (descending)
-        const sortedMeasures = [...measures].sort((a, b) => b.amount - a.amount);
+        // Sort measures by absolute value descending, then by actual value
+        const sortedMeasures = [...measures].sort((a, b) => {
+            const absA = Math.abs(a.amount);
+            const absB = Math.abs(b.amount);
+            if (absB !== absA) return absB - absA;
+            return b.amount - a.amount;
+        });
 
         const labels = sortedMeasures.map(m => this.formatMeasureName(m.name));
         const amounts = sortedMeasures.map(m => m.amount);
         const fullMeasureNames = sortedMeasures.map(m => m.name); // Store full measure names for tooltip
+
+        // Color bars based on positive/negative values
+        const barColors = amounts.map(amount => amount >= 0 ? '#d63f44' : '#4790b1');
 
         if (this.chart) {
             this.chart.destroy();
@@ -206,8 +234,8 @@ class SectorChart {
                 datasets: [{
                     label: 'Bedrag (miljoen €)',
                     data: amounts,
-                    backgroundColor: '#d63f44',
-                    borderColor: '#d63f44',
+                    backgroundColor: barColors,
+                    borderColor: barColors,
                     borderWidth: 1,
                     fullNames: fullMeasureNames // Store full measure names for tooltip
                 }]
@@ -216,6 +244,11 @@ class SectorChart {
                 indexAxis: 'y', // Make bars horizontal
                 responsive: true,
                 maintainAspectRatio: false,
+                interaction: {
+                    mode: 'nearest',
+                    axis: 'y',
+                    intersect: false
+                },
                 plugins: {
                     title: {
                         display: true,
@@ -247,7 +280,13 @@ class SectorChart {
                     x: {
                         beginAtZero: true,
                         grid: {
-                            color: '#f4ede3'
+                            color: (context) => {
+                                // Make the zero line more visible
+                                return context.tick.value === 0 ? '#1f497d' : '#f4ede3';
+                            },
+                            lineWidth: (context) => {
+                                return context.tick.value === 0 ? 2 : 1;
+                            }
                         },
                         ticks: {
                             color: '#1f497d',
