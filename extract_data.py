@@ -88,10 +88,15 @@ def extract_sector_data():
                         })
             sector_details[col] = measures
 
+    # Extract industrie subsector data
+    print("\nExtracting industrie subsector data...")
+    industrie_data = extract_industrie_subsectors(excel_file)
+
     # Prepare data for web chart
     chart_data = {
         "sector_totals": sector_totals,
-        "sector_details": sector_details
+        "sector_details": sector_details,
+        "industrie_subsectors": industrie_data
     }
 
     # Save as JSON for web use
@@ -103,6 +108,76 @@ def extract_sector_data():
     print(f"Sector totals: {list(sector_totals.keys())}")
 
     return chart_data
+
+def extract_industrie_subsectors(excel_file):
+    """Extract industrie subsector breakdown from separate sheet"""
+
+    # Read the industrie subsector sheet
+    df = pd.read_excel(excel_file, sheet_name="Uitsplitsing industrie")
+
+    # Stop at first row where first column contains "SOM"
+    som_row_idx = None
+    for idx, row in df.iterrows():
+        first_cell = row.iloc[0]
+        if pd.notna(first_cell) and isinstance(first_cell, str) and first_cell.strip().upper() == "SOM":
+            som_row_idx = idx
+            break
+
+    if som_row_idx is not None:
+        print(f"Found 'SOM' row at index {som_row_idx}, truncating industrie data")
+        df = df.iloc[:som_row_idx]
+
+    # Get subsector columns (starting from column 5: "10 Vervaardiging van...")
+    subsector_columns = df.columns[5:]  # All columns after "Generiek industrie"
+
+    # Convert all subsector columns to numeric
+    for col in subsector_columns:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+
+    # Calculate subsector totals
+    subsector_totals = {}
+    for col in subsector_columns:
+        total = df[col].sum()
+        if pd.notna(total) and total != 0:
+            subsector_totals[col] = total
+
+    # Get measure details for each subsector
+    subsector_details = {}
+    for col in subsector_columns:
+        if col in subsector_totals:
+            measures = []
+            for idx, row in df.iterrows():
+                amount = row[col]
+                if pd.notna(amount) and amount != 0:
+                    # Use "Regeling" column (index 3) for measure name
+                    measure_name = None
+                    if pd.notna(row.iloc[3]) and isinstance(row.iloc[3], str):
+                        measure_name = row.iloc[3]
+                    else:
+                        # Fallback to combining other columns (only use string values)
+                        col_0 = row.iloc[0] if pd.notna(row.iloc[0]) and isinstance(row.iloc[0], str) else ""
+                        col_1 = row.iloc[1] if pd.notna(row.iloc[1]) and isinstance(row.iloc[1], str) else ""
+                        col_2 = row.iloc[2] if pd.notna(row.iloc[2]) and isinstance(row.iloc[2], str) else ""
+
+                        # Build measure name from available columns
+                        parts = [p for p in [col_0, col_1, col_2] if p]
+                        if parts:
+                            measure_name = " - ".join(parts)
+
+                    # Skip if we couldn't determine a valid measure name
+                    if measure_name and isinstance(measure_name, str):
+                        measures.append({
+                            "name": str(measure_name),
+                            "amount": float(amount)
+                        })
+            subsector_details[col] = measures
+
+    print(f"Found {len(subsector_totals)} industrie subsectors")
+
+    return {
+        "subsector_totals": subsector_totals,
+        "subsector_details": subsector_details
+    }
 
 if __name__ == "__main__":
     data = extract_sector_data()

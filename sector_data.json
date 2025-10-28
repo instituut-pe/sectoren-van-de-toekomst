@@ -2483,5 +2483,280 @@
         "amount": 49.0
       }
     ]
+  },
+  "industrie_subsectors": {
+    "subsector_totals": {
+      "10 Vervaardiging van voedingsmiddelen": 9063.759872097213,
+      "11 Vervaardiging van dranken": -2030.0,
+      "12 Vervaardiging van tabaksproducten": -3533.0,
+      "13 Vervaardiging van textiel": -9.810426540284361,
+      "16 Primaire houtbewerking en vervaardiging van artikelen van hout, kurk, riet en vlechtwerk (geen meubels)": -6.252662740787032,
+      "17 Vervaardiging van papier, karton en papier- en kartonwaren": -56.640371483699695,
+      "18 Drukkerijen, reproductie van opgenomen media": -8.829383886255924,
+      "19 Vervaardiging van cokesovenproducten en aardolieverwerking": -9085.654746517306,
+      "20 Vervaardiging van chemische producten": -303.1050030287963,
+      "21 Vervaardiging van farmaceutische grondstoffen en producten": 2267.571360189573,
+      "22 Vervaardiging van producten van rubber en kunststof": -92.218009478673,
+      "23 Vervaardiging van overige niet-metaalhoudende minerale producten": -86.07165110455279,
+      "24 Vervaardiging van metalen in primaire vorm": 161.9060092414781,
+      "25 Metaalproductenindustrie": -75.54028436018957,
+      "26 Vervaardiging van computers en van elektronische en optische apparatuur": 483.5099684044234,
+      "28 Vervaardiging van overige machines en apparaten": -45.127962085308056,
+      "29 Vervaardiging van auto's, aanhangwagens en opleggers": -6541.8220276696975,
+      "30 Vervaardiging van overige transportmiddelen": 44.526,
+      "31 Vervaardiging van meubels": -29.43127962085308
+    },
+    "subsector_details": {
+      "10 Vervaardiging van voedingsmiddelen": [
+        {
+          "name": "Btw Verlaagd tarief voedingsmiddelen en water",
+          "amount": 9340.0
+        },
+        {
+          "name": "Energiebelasting",
+          "amount": -234.4691943127962
+        },
+        {
+          "name": "ETS-ontvangsten",
+          "amount": -41.77093358999038
+        }
+      ],
+      "11 Vervaardiging van dranken": [
+        {
+          "name": "Alcoholaccijns",
+          "amount": -425.0
+        },
+        {
+          "name": "Bieraccijns",
+          "amount": -528.0
+        },
+        {
+          "name": "Wijnaccijns",
+          "amount": -387.0
+        },
+        {
+          "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Indirecte belastingen - Verbruiksbelasting van alcoholvrij dranken e.a.",
+          "amount": -690.0
+        }
+      ],
+      "12 Vervaardiging van tabaksproducten": [
+        {
+          "name": "Tabaksaccijns",
+          "amount": -3533.0
+        }
+      ],
+      "13 Vervaardiging van textiel": [
+        {
+          "name": "Energiebelasting",
+          "amount": -9.810426540284361
+        }
+      ],
+      "16 Primaire houtbewerking en vervaardiging van artikelen van hout, kurk, riet en vlechtwerk (geen meubels)": [
+        {
+          "name": "Energiebelasting",
+          "amount": -4.9052132701421804
+        },
+        {
+          "name": "ETS-ontvangsten",
+          "amount": -1.347449470644851
+        }
+      ],
+      "17 Vervaardiging van papier, karton en papier- en kartonwaren": [
+        {
+          "name": "Energiebelasting",
+          "amount": -43.165876777251185
+        },
+        {
+          "name": "ETS-ontvangsten",
+          "amount": -13.474494706448507
+        }
+      ],
+      "18 Drukkerijen, reproductie van opgenomen media": [
+        {
+          "name": "Energiebelasting",
+          "amount": -8.829383886255924
+        }
+      ],
+      "19 Vervaardiging van cokesovenproducten en aardolieverwerking": [
+        {
+          "name": "Accijns van lichte olie",
+          "amount": -5164.0
+        },
+        {
+          "name": "Accijns van minerale olien, anders dan lichte olie",
+          "amount": -3845.0
+        },
+        {
+          "name": "Brandstoffenheffingen",
+          "amount": -1.0
+        },
+        {
+          "name": "Energiebelasting",
+          "amount": -62.78672985781991
+        },
+        {
+          "name": "ETS-ontvangsten",
+          "amount": -12.868016659485853
+        }
+      ],
+      "20 Vervaardiging van chemische producten": [
+        {
+          "name": "Energiebelasting",
+          "amount": -259.97630331753555
+        },
+        {
+          "name": "ETS-ontvangsten",
+          "amount": -128.0076997112608
+        },
+        {
+          "name": "NGF - project Groenvermogen van de Nederlandse economie",
+          "amount": 84.879
+        }
+      ],
+      "21 Vervaardiging van farmaceutische grondstoffen en producten": [
+        {
+          "name": "Btw Verlaagd tarief geneesmiddelen en hulpmiddelen",
+          "amount": 1914.0
+        },
+        {
+          "name": "Energiebelasting",
+          "amount": -14.71563981042654
+        },
+        {
+          "name": "Medische producten",
+          "amount": 357.638
+        },
+        {
+          "name": "NGF- project RegMed XB",
+          "amount": 10.649
+        }
+      ],
+      "22 Vervaardiging van producten van rubber en kunststof": [
+        {
+          "name": "Energiebelasting",
+          "amount": -92.218009478673
+        }
+      ],
+      "23 Vervaardiging van overige niet-metaalhoudende minerale producten": [
+        {
+          "name": "Energiebelasting",
+          "amount": -72.59715639810427
+        },
+        {
+          "name": "ETS-ontvangsten",
+          "amount": -13.474494706448507
+        }
+      ],
+      "24 Vervaardiging van metalen in primaire vorm": [
+        {
+          "name": "Energiebelasting",
+          "amount": -16.677725118483412
+        },
+        {
+          "name": "ETS-ontvangsten",
+          "amount": 167.0837343599615
+        },
+        {
+          "name": "Stikstofaanpak piekbelasters industrie",
+          "amount": 11.5
+        }
+      ],
+      "25 Metaalproductenindustrie": [
+        {
+          "name": "Energiebelasting",
+          "amount": -75.54028436018957
+        }
+      ],
+      "26 Vervaardiging van computers en van elektronische en optische apparatuur": [
+        {
+          "name": "Energiebelasting",
+          "amount": -31.393364928909953
+        },
+        {
+          "name": "EuroHPC",
+          "amount": 10.193
+        },
+        {
+          "name": "EuroQCI",
+          "amount": 5.606
+        },
+        {
+          "name": "IPCEI Micro elektronica",
+          "amount": 143.088
+        },
+        {
+          "name": "NGF - project NXTGEN HIGH TECH",
+          "amount": 26.07333333333333
+        },
+        {
+          "name": "NGF - project PhotonDelta",
+          "amount": 67.125
+        },
+        {
+          "name": "NGF-project QuantumDeltaNL",
+          "amount": 127.818
+        },
+        {
+          "name": "NGF -project Circulaire zonnepanelen",
+          "amount": 135.0
+        }
+      ],
+      "28 Vervaardiging van overige machines en apparaten": [
+        {
+          "name": "Energiebelasting",
+          "amount": -45.127962085308056
+        }
+      ],
+      "29 Vervaardiging van auto's, aanhangwagens en opleggers": [
+        {
+          "name": "Elektrisch vervoer",
+          "amount": 113.124
+        },
+        {
+          "name": "Energiebelasting",
+          "amount": -36.29857819905214
+        },
+        {
+          "name": "ETS-ontvangsten",
+          "amount": -1.347449470644851
+        },
+        {
+          "name": "Reservering Klimaatakkoord",
+          "amount": 26.7
+        },
+        {
+          "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Indirecte belastingen - Belasting op zware motorrijtuigen",
+          "amount": -213.0
+        },
+        {
+          "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Indirecte belastingen - Belasting op personenauto's en motorrijwielen",
+          "amount": -1485.0
+        },
+        {
+          "name": "Belasting- en premieontvangsten (Bijlage 4 MJN) - Indirecte belastingen - Motorrijtuigenbelasting",
+          "amount": -4946.0
+        }
+      ],
+      "30 Vervaardiging van overige transportmiddelen": [
+        {
+          "name": "NGF- projectNXTGEN Ruimtevaart",
+          "amount": 9.73
+        },
+        {
+          "name": "R&D mobiliteitssectoren",
+          "amount": 33.1
+        },
+        {
+          "name": "Subsidieregeling Duurzame Scheepsbouw (SDS)",
+          "amount": 1.696
+        }
+      ],
+      "31 Vervaardiging van meubels": [
+        {
+          "name": "Energiebelasting",
+          "amount": -29.43127962085308
+        }
+      ]
+    }
   }
 }
